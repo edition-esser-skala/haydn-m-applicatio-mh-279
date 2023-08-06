@@ -1,0 +1,19 @@
+composer:
+  last: Haydn
+  first: Johann Michael
+title: Applicatio
+id: MH 279
+genre: cantata
+scoring: S, 2 T, B (solo), S, A, T, B (coro), 2 fl, 2 ob, 2 cor, 2 clno, posthorn, 2 vl, vla, b, org
+license: cc-by-sa-4.0
+sources:
+  A1:
+    siglum: GB-Lbm
+    shelfmark: Add. 32.173
+    date: 1778-06-07
+    url: https://www.bl.uk/manuscripts/FullDisplay.aspx?ref=Add_MS_32173
+    license: public domain
+    principal: true
+imslp:
+parts:
+  ottoni: Clarino I, II in C\\Timpani in C–G

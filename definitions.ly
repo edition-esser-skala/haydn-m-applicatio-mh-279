@@ -6,7 +6,15 @@
 \include "ees_articulate.ly"
 
 
+FiliaPetri = \markup \remark "Filia Petri"
+Levita = \markup \remark "Levita"
+SacerdosPrimus = \markup \remark "Sacerdos 1:mus"
+
+
 tempoAnSomnio = \tempoMarkup "Presto"
+  tempoAnSomnioB = \tempoMarkup "Andante"
+  tempoAnSomnioC = \tempoMarkup "Presto"
+  tempoAnSomnioD = \tempoMarkup "Andante"
 
 
 % \include "notes/ob1.ly"

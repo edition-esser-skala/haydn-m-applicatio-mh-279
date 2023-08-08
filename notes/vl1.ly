@@ -60,3 +60,218 @@ AnSomnioViolinoI = {
     r4 r8 cis' d4 r\fermata \bar "|." %57 finis
   }
 }
+
+QuaePlanctusViolinoI = {
+  \relative c' {
+    \clef treble
+    \key f \major \time 3/8 \tempoQuaePlanctus
+    \mvTr c'8\fE-\conSordE c( cis)
+    d4 g8
+    \appoggiatura f e4 d8
+    c! c d
+    b( g) c %5
+    \appoggiatura b16 a8 a r
+    f' b a
+    d4 \appoggiatura c32 b16 a32 g
+    \appoggiatura f8 e4 f8
+    g b, a %10
+    g( d') f,
+    f\trill e r
+    c\p b'( a)
+    d(\fz c) r
+    c,\p a'( g) %15
+    c(\fz b) r
+    a'~ \tuplet 3/2 8 { a16([ b c)] b( g e)
+    f([ g a)] f[-! e-! d]-! } c r
+    d8~ \tuplet 3/2 8 { d16([ e f)] c( b a)
+    b([ c d)] c[-! b-! a]-! } g r %20
+    \tuplet 3/2 8 { a[ f c'] } f,8( \grace a16 g8)
+    f r r
+    c'\p c cis
+    d4 g8
+    \appoggiatura f e4 d8 %25
+    c! c d
+    b( g) c
+    \appoggiatura b16 a8 a r
+    f b a
+    d4 e8 %30
+    f g a
+    b b, a
+    g( d') f,
+    f \tuplet 3/2 8 { e16([ f g)] f( g a) }
+    g8 e g %35
+    a r a
+    a a a
+    h r h
+    h h h
+    c16( h d c) e8\fz %40
+    d16(\p cis e d) f8\fz
+    e16(\p d) f( e) g( f)
+    a4.~
+    a8 d, c
+    h r r %45
+    g' f e
+    \appoggiatura e f4 a8
+    g,8. a16 h8
+    c d e
+    f4\fz e8\p %50
+    e d r
+    g f e
+    \appoggiatura e f4 a8
+    g,8. a16 h8
+    c d e %55
+    f4\fz e8\p
+    e d h'\trill\f
+    c r r
+    r g,\p e'\trill
+    f r r %60
+    r g, d'\trill
+    e8. f16 g8
+    c,8. d16 e8
+    a, h16( cis) d( e)
+    f( cis d e) f( d) %65
+    c8( e) d
+    c16-! c-! h( c) e( c)
+    a'8. h16 c8
+    f,8. g16 a8
+    a, h16( cis) d( e) %70
+    f( g a e) f( d)
+    g, e'8 e e16
+    g,\fz d'8 d d16
+    c-! g-!\f c( e) c( e)
+    g8 g( gis) %75
+    a4 d8
+    \appoggiatura c h4 a8
+    g! g a
+    f( d) g
+    \appoggiatura f16 e8 e r %80
+    g,\p f'( e)
+    a(\fz g) r
+    g,\p \once \slurDashed e'( d)
+    g(\fz f) r
+    e~\f \tuplet 3/2 8 { e16([ f g)] f( d h) %85
+    c([ d e)] c[-! h-! a]-! } g r
+    a8~ \tuplet 3/2 8 { a16([ c h)] c( d e)
+    f([ g a)] g[-! f-! e]-! } d r
+    \tuplet 3/2 8 { e16[ c g'] } c,8( \grace e16 d8)
+    c r r %90
+    c\p g( b!)
+    as as'( g)
+    f h, h
+    r h-!\f f'-!
+    as-! r as,\p %95
+    as g16( as) g( as)
+    g8 g( b)
+    as as'( g)
+    f h, h
+    r h-!\f f'-! %100
+    as-! r h,,\p
+    c e( f)
+    g-! g( a!)
+    b-! b(\fz h)
+    c\p c cis %105
+    d4 g8
+    \appoggiatura f e4 d8
+    c! c d
+    b g c
+    \appoggiatura b16 a8 a r %110
+    f b a
+    d4 e8
+    f g a
+    b b, a
+    g( d') b %115
+    a a16(\f f) c'( a)
+    f'8 a,\p a
+    b16( a c b) d8\fz
+    c16(\p h d c) es8\fz
+    d\p r d %120
+    d d d
+    e! r e
+    e e e
+    f16( e) g( f) a8~
+    a c, c %125
+    d16( cis) e( d) f8~
+    f f, fis
+    g16( fis) a( g) b( a)
+    d4 f,8
+    e r c' %130
+    f16( e g f) a8\fz
+    g16(\p fis a g) b8\fz
+    a16(\f c,) g'( c,) h'( c,)
+    c'8 r r
+    c,\p b! a %135
+    \appoggiatura a b4 d8
+    e,4.
+    f8 g a
+    b4\fz a8\p
+    a g r %140
+    c b a
+    \appoggiatura a b4 d8
+    e,4 e'8
+    f g a
+    b\f b,\p a %145
+    a g e'\f\trill
+    f r r
+    r c\p a'\trill
+    b r r
+    r c,, g'\trill %150
+    a8. b16 c8
+    d8. e16 f8
+    \appoggiatura e16 d8 c16( b) a( g)
+    fis( g a g) b( g)
+    f8( a) g %155
+    f r r
+    f' es d
+    \appoggiatura d es4 g8
+    f,8. g16 a8
+    b c d %160
+    es( c') es,
+    es d r
+    g f e
+    \appoggiatura e f4 a8
+    g,8. a16 h8 %165
+    c d e
+    f f, f
+    f e e'\f\trill
+    f r r
+    r c\p a'\trill %170
+    b r r
+    r c, c\trill
+    f8. g16 a8
+    d,8. e16 f8
+    \appoggiatura e16 d8 c16( b) a( g) %175
+    fis( g a g) b( g)
+    f8( a) g
+    f16( a) b(\fz d) c( b')
+    a8. b16 c8
+    f,8.\p g16 a8 %180
+    d,16( e) f( cis) d( e)
+    f( cis) d( a) b( d)
+    a a'8 a a16
+    b,\fz g'8 g g16
+    f(\f e) g( f) a8 %185
+    g16( fis) a( g) b8
+    a16( g) b( a) c( e,)
+    f( e) g( f) a( cis,)
+    d( cis) e( d) f( a,)
+    b( b') b( a) a( g) %190
+    a4.
+    R\fermata
+    f8-\senzaSord b a
+    d4 \appoggiatura c32 b16 a32 g
+    \appoggiatura f8 e4 f8 %195
+    g b, a
+    g( d') f,
+    f\trill e r
+    c\p \once \slurDashed b'( a)
+    d(\fz c) r %200
+    c,\p a'( g)
+    c(\fz b) r
+    a'~ \tuplet 3/2 8 { a16([ b c)] b( g e)
+    f([ g a)] f[-! e-! d]-! } c r
+    d8~ \tuplet 3/2 8 { d16([ e f)] c( b a) %205
+    b([ c d)] c[-! b-! a]-! } g r
+    \tuplet 3/2 8 { a16[ f c'] } f,8( \grace a16 g8)
+    f r r\fermata \bar "|." %208 finis
+  }
+}

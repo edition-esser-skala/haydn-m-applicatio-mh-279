@@ -130,3 +130,27 @@ QuaePlanctusCornoI = {
     c r r\fermata \bar "|." %208 finis
   }
 }
+
+GaudeCornoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoGaude
+    R1*38 %38
+    R1\fermata
+    \pa c4\fE g' e8 c e g %40
+    c4 \pd r8 \pa c,16 c c8 c c c
+    c4 \pd r8 \pa c16 c c8 c g' g \pd
+    g4 r r2
+    R1
+    \pa c,4\fE g' e8 c e g %45
+    c4 \pd r8 \pa c,16 c c8 c c c
+    c4 \pd r8 \pa c16 c c8 c g' g \pd
+    g4 r r2
+    R1*2 %50
+    g4 r8 g16 g g8 g g g
+    g4 r8 g16 g g8 g g g
+    g4 r r2
+    R1*2 %55
+    R1\fermata \bar "|." %56 finis
+  }
+}

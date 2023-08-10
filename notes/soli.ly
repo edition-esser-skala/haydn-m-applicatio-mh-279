@@ -427,3 +427,111 @@ QuaePlanctusSoliLyrics = \lyricmode {
   _ ti --
   a. %193 finis
 }
+
+GaudeSoli = {
+  \relative c' {
+    \clef "treble_8"
+    \key c \major \time 4/4 \autoBeamOff \tempoGaude
+    R1
+    g8^\SacerdosSecundus g16 g h8 d d16 g, g8 r16 f f g
+    e8 e r4 r2
+    r4 r8 c' c g g f
+    g8. g16 g4 b b8 a %5
+    f f r4 r2
+    f8 f a16 a a c a a a8 r a
+    c c d es d16 d d8 r16 d d a
+    b8. b16 b4 d cis16 cis d8
+    d a \tempoGaudeB r4 r2 %10
+    R1
+    r2 r8 f16 f f8 f
+    b8. b16 b8 d es es r4
+    es es8 f d d r4
+    r2 r8 c16 c a a a b %15
+    c8 c r c f f16 e! d8 c
+    h! h r h h h h c16 d
+    gis, gis gis8 r gis gis gis gis a16 h
+    h8 e, r4 h'8. h16 h8 c
+    d d d e c16 c c8 r4 %20
+    c d8 e f8. f16 f4
+    d d8 c a a r4
+    R1*2
+    \clef treble r8^\Levita f' f f16 g a4 a %25
+    c16 a a a g8 a f f r4
+    c'8 c16 c c8 f f8. h,!16 h4
+    d f,8 g e e r c'
+    c c d e e h r16 d d e
+    c8 c r4 c8 c16 c h8 a %30
+    dis16 dis dis8 dis e e h r4
+    R1*2
+    r8 a a a16 gis a8 a r4
+    c8 c16 c h8 c a a a a16 gis %35
+    h8 h r4 h8 h16 h e8 e16 h
+    c8 c r16 c c a fis8 fis r a16 h
+    c8 c c h d d r4
+    R1\fermata
+    \tempoGaudeC R1*3 %42
+    r8 c c d e e r4
+    g8 e r e c c r4
+    R1*3 %47
+    r4 g8 g c c16 h c c r e
+    d8. d16 d4 a a8 d
+    d4 a c8 c16 c c8 d %50
+    h h r4 r2
+    R1
+    r4 h8 d d4 g,
+    r f'4. \appoggiatura e16 d8 \appoggiatura c16 h8 \appoggiatura a16 g f
+    \appoggiatura f e8 e r e'4 c16 c c8 c16 h %55
+    g8 g r4 r2\fermata \bar "|." %56 finis
+  }
+}
+
+GaudeSoliLyrics = \lyricmode {
+  Gau -- de Re -- bec -- ca ste -- ri -- lis, et tri -- stis %2
+  di -- u!
+  ri -- de -- re jam cum
+  fer -- ti -- li hac spon -- sa %5
+  va -- les;
+  gra -- vi in se -- me -- cta fi -- li -- um nam
+  ti -- bi De -- us tri -- bu -- it pa -- ren -- tis
+  pro -- pri -- ae ut fi -- e -- ret
+  Pa -- ter. %10
+
+  Spe -- ci -- o -- sa
+  fa -- cta es a -- mi -- ca
+  sub tan -- to Pa -- tre
+  qui bis de -- cem at -- que %15
+  quin -- que con -- nu -- bi -- i su -- i
+  an -- nis ve -- tus -- tam trans -- tu -- lit
+  fa -- ci -- em et ni -- grum ter -- sit
+  co -- lo -- rem, fi -- li -- os -- que
+  ti -- bi no -- vos pe -- pe -- rit, %20
+  a -- mo -- ris ger -- mi -- na
+  et te -- stes su -- i.
+
+  Hos in -- ter et e -- go %25
+  gra -- ti -- a in -- di -- gnus fru -- or,
+  et me be -- a -- tum re -- pu -- to
+  sub tan -- to du -- ce, qui
+  pri -- mus in Vir -- tu -- te com -- mis -- sum
+  gre -- gem se -- cum per ar -- ctam %30
+  pro -- mo -- vet coe -- li vi -- am.
+
+  Quis hu -- ic Pa -- ren -- ti %34
+  gra -- ti -- as di -- gnas sa -- tis um -- quam re -- %35
+  pen -- dat? Aut quis e -- nu -- me -- ret
+  bo -- na col -- la -- ta ma -- tri, cu -- i
+  no -- vam vi -- tam de -- dit?
+
+  Lo -- quan -- tur a -- rae, %43
+  tem -- pla, pi -- ctu -- rae,
+
+  fo -- ris in -- tus -- que mu -- ri be -- ne -- %48
+  fi -- cum in Be -- da
+  Pa -- trem al -- ta lo -- quan -- tur %50
+  vo -- ce
+
+  et ae -- ter -- nas
+  pi -- o hoc pro Pa --
+  ren -- te gra -- ti -- as re -- fe -- rant %55
+  DE -- o. %56 finis
+}

@@ -275,3 +275,66 @@ QuaePlanctusViola = {
     a r r\fermata \bar "|." %208 finis
   }
 }
+
+GaudeViola = {
+  \relative c' {
+    \clef alto
+    \key c \major \time 4/4 \tempoGaude
+    f8\fE f16 g a f e f d8 d16 e f d c d
+    h4 r r2
+    c'8 c16 d e c h c g h c h c g f g
+    e4 r r2
+    R1 %5
+    f8 c'16 a es' c b c a f c' a f c f c
+    f,1~\p
+    f2 d'
+    d1
+    r4 \tempoGaudeB r8 a\f a4 r8 d\p %10
+    es4 r8 es d4 r8 d
+    c es r f,\f f4 r
+    r2 f'~\p
+    f f4 r8 f(
+    es) r r g( f2~) %15
+    f1
+    d
+    h!
+    gis~
+    gis2 a~ %20
+    a d~
+    d r4 r8 e\f
+    e r r a,\p b4 r8 b
+    a4 r8 c c b r c\f
+    c4 r f2~\p %25
+    f f,~
+    f d'~
+    d g,~
+    g gis
+    a1~ %30
+    a2 r4 r8 h\f
+    h r r g'([\p f)] r r a([
+    g)] r r h([ a)] r r4
+    c,1~\fp
+    c %35
+    e2 r
+    a1~\fp
+    a2 d,4. h8
+    c4. a8 d2\fermata
+    \tempoGaudeC c4\f g' e8 c e g %40
+    c c c c c c c c
+    c c c c c c c c
+    c4 r r2
+    R1
+    c,4 g' e8 c e g %45
+    c c c c c c c c
+    c c c c c c c c
+    c4 r r2
+    fis,1~\p
+    fis %50
+    g8\f g g g g g g g
+    g g g g g g g g
+    g4 r r2
+    h,1\pp
+    g %55
+    r4 d'\f d r\fermata \bar "|." %56 finis
+  }
+}

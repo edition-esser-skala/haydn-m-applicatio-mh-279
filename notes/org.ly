@@ -549,3 +549,125 @@ QuaePlanctusBassFigures = \figuremode {
   r q4
   r4. %208 finis
 }
+
+GaudeOrgano = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \tempoGaude
+    \mvTr f8\fE-\soloE-\unisonoE f16 g a f e f d8 d16 e f d c d
+    h4 r r2
+    c'8-\unisonoE c16 d e c h c g h c h c g f g
+    e4 r r2
+    R1 %5
+    f8-\unisonoE c'16 a es' c b c a f c' a f c f c
+    a1~\p
+    a2 fis'
+    g1
+    r4 \tempoGaudeB r8 a\f d,4 r8 d'\p %10
+    es4 r8 es d4 r8 d
+    c c f,\f f b,4 r
+    r2 a~\p
+    a b4 r8 d(
+    es) r r e( f2)~ %15
+    f1
+    d
+    h!
+    gis~
+    gis2 a~ %20
+    a d~
+    d r4 r8 e\f
+    a, r r a'\p b4 r8 b
+    a4 r8 a g g c,\f c
+    f4 r f2~\p %25
+    f a,~
+    a g~
+    g c~
+    c gis
+    a1~ %30
+    a2 r4 r8 h\f
+    e r r e([\p f!)] r r fis([
+    g)] r r gis([ a)] r r4
+    f!1~\fp
+    f %35
+    e2 r
+    a1~\fp
+    a2 g!
+    g, g\fermata
+    \tempoGaudeC c4\f g' e8 c e g %40
+    c c c c c c c c
+    c c c c c c c c
+    c4 r r2
+    R1
+    c,4 g' e8 c e g %45
+    c c c c c c c c
+    c c c c c c c c
+    c4 r r2
+    fis,1~\p
+    fis %50
+    g8\f g g g g g g g
+    g g g g g g g g
+    g4 r r2
+    g,1\pp
+    c %55
+    r4 d\f g, r\fermata \bar "|." %56 finis
+  }
+}
+
+GaudeBassFigures = \figuremode {
+  r1
+  <6>
+  r
+  q
+  r %5
+  r
+  <6 5->
+  r2 <6>
+  <_->1
+  r4. <_+>2 <6->8 %10
+  <5->2 <6->
+  <7 _->8 <6 \t> <7->2.
+  r2 <6 5->
+  r2.. <6- 5->8
+  <5->4. <6 5->8 <_!>2 %15
+  r1
+  <6!>
+  <6\\>
+  <6>
+  r %20
+  r
+  r2.. <_+>8
+  r4. <6>8 r2
+  <6> <7 4 _->8 <6 \t \t> <7->4
+  r1 %25
+  r2 <6>
+  r <7 _!>
+  r1
+  r2 <6>
+  r1 %30
+  <6\\ 4\+ 2>2.. <5\+ _+>8
+  r4. <6 5->2 <6 5>8
+  <_!>4. <6 5>8 r2
+  <6\\>1
+  r %35
+  <_+>
+  <6\\>
+  r
+  <6 4>4. <7\\ 2>8 <8 3>2
+  <1>4 q q8 q q q %40
+  <5 3>2. <7- 5>4
+  <6 4>2. <7! 2>4
+  <8 3>1
+  r
+  <1>4 q q8 q q q %45
+  <5 3>2. <7- 5>4
+  <6 4>2. <7! 2>4
+  <8 3>1
+  <6>
+  r %50
+  r2. <7! 5>4
+  <6 4>2 <7\\ 2>
+  <8 3>1
+  <7!>
+  r %55
+  r4 <7 _+>2. %56 finis
+}

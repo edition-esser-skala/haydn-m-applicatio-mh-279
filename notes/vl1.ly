@@ -275,3 +275,66 @@ QuaePlanctusViolinoI = {
     f r r\fermata \bar "|." %208 finis
   }
 }
+
+GaudeViolinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoGaude
+    f8\fE f16 g a f e f d8 d16 e f d c d
+    <g g,>4 r r2
+    c8 c16 d e c h c g h c h c g f g
+    <e c' g'>4 r r2
+    R1 %5
+    f8 c'16 a es' c b c a f c' a f c f c
+    es'1~\p
+    es2 d
+    b'1
+    r4 \tempoGaudeB r8 cis,\f d f16(\p d) a32( b c b) b8~ %10
+    b \once \slurDashed g'16( es) a,32( b c b) b8~ b \once \slurDashed f'16( d) a32( b c b) b8~
+    b32( a c b) a([ b c d)] es(\f d c d) es([ f g a)] b4 r
+    r2 es,~\p
+    es d8 f16( d) a32( b c b) b8~
+    b \once \slurDashed g'16( es) h32( c d c) c8~ c2~ %15
+    c1
+    f
+    gis,
+    e'~
+    e2 c'~ %20
+    c a~
+    a r4 r8 gis\f
+    a c,16(\p a) e32( f g f) f8~ f d'16( b) e,32( f g f) f8~
+    f \once \slurDashed c'16( a) e32( f g f) f8~ f32( e g f) e([ f g a)] b(\f a g a) b([ c d e)]
+    f4 r c2~\p %25
+    c f~
+    f h,!~
+    h c~
+    c e
+    c'1 %30
+    dis,2 r4 r8 dis\f
+    e g16(\p e) h32( c d c) c8~ c a'16( f) cis32( d e d) d8~
+    d h'16( g) dis32( e fis e) e8 e c'16( h) a( g!) f( e)
+    dis1~\fp
+    dis %35
+    e8 h'16(\pp gis) dis32( e fis e) e8 r2
+    fis1~\fp
+    fis2 g!8 d'16(\pp h) fis32( g a g) g8~
+    g e16( c) \appoggiatura h32 a16[ c32 a] \appoggiatura g fis16 a32 fis g2\fermata
+    \tempoGaudeC c,4\f g' e8-! c-! e-! g-! %40
+    c c' c4. b16 a b a g b
+    a8 c c4~ c16 a f a g f d f
+    e4 r r2
+    R1
+    c,4 g' e8 c e g %45
+    c c' c4. b16 a b a g b
+    a8 c c4~ c16 a f a g f d f
+    e4 r r2
+    a1~\p
+    a %50
+    r8 g\f g4. f!16 e f e d f
+    e8 c' c4. h16 c d c a c
+    h4 r r2
+    f,!1\pp
+    e %55
+    r4 <a fis'>\f <d, h' g'> r\fermata \bar "|." %56 finis
+  }
+}

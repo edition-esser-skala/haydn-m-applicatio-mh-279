@@ -58,9 +58,82 @@
   %     \midi { \tempo 4 = 70 }
   %   }
   % }
+  % \bookpart {
+  %   \section "2" "Aria" "Quae planctus in ruinis"
+  %   \addTocLabel "quaeplanctus"
+  %   \paper {
+  %     top-system-spacing.basic-distance = #10
+  %     top-system-spacing.minimum-distance = #10
+  %     top-markup-spacing.basic-distance = #0
+  %     top-markup-spacing.minimum-distance = #0
+  %     markup-system-spacing.basic-distance = #10
+  %     markup-system-spacing.minimum-distance = #10
+  %     system-system-spacing.basic-distance = #17
+  %     system-system-spacing.minimum-distance = #17
+  %     systems-per-page = #2
+  %   }
+  %   \score { %\articulate
+  %     <<
+  %       \new StaffGroup <<
+  %         \new GrandStaff \with { \setGroupDistance #11 #11 } <<
+  %           \set GrandStaff.instrumentName = "fl"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \QuaePlanctusFlautoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \QuaePlanctusFlautoII
+  %           }
+  %         >>
+  %       >>
+  %       \new StaffGroup \with { \setGroupDistance #11 #11 } <<
+  %         \new Staff <<
+  %           \set Staff.instrumentName = \markup \center-column { \transposedNameShort "cor" "F" "" "1, 2" }
+  %           % \transpose c f,
+  %           \partCombine #'(0 . 10) \QuaePlanctusCornoI \QuaePlanctusCornoII
+  %         >>
+  %       >>
+  %       \new StaffGroup \with { \setGroupDistance #11 #11 } <<
+  %         \new GrandStaff \with { \setGroupDistance #11 #11 } <<
+  %           \set GrandStaff.instrumentName = "vl"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \QuaePlanctusViolinoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \QuaePlanctusViolinoII
+  %           }
+  %         >>
+  %         \new Staff {
+  %           \set Staff.instrumentName = "vla"
+  %           \QuaePlanctusViola
+  %         }
+  %       >>
+  %       \new ChoirStaff \with { \setGroupDistance #12 #13 } <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = \markup \center-column { "Filia" "Petri" }
+  %           \new Voice = "Soli" { \dynamicUp \QuaePlanctusSoli }
+  %         }
+  %         \new Lyrics \lyricsto Soli \QuaePlanctusSoliLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = \markup \center-column { "org" "b" }
+  %           % \transpose c c,
+  %           \QuaePlanctusOrgano
+  %         }
+  %       >>
+  %       \new FiguredBass { \QuaePlanctusBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4. = 48 }
+  %   }
+  % }
   \bookpart {
-    \section "2" "Aria" "Quae planctus in ruinis"
-    \addTocLabel "quaeplanctus"
+    \section "3" "Recitativo" "Gaude Rebecca sterilis"
+    \addTocLabel "gauderebecca"
     \paper {
       top-system-spacing.basic-distance = #10
       top-system-spacing.minimum-distance = #10
@@ -68,67 +141,58 @@
       top-markup-spacing.minimum-distance = #0
       markup-system-spacing.basic-distance = #10
       markup-system-spacing.minimum-distance = #10
-      system-system-spacing.basic-distance = #17
-      system-system-spacing.minimum-distance = #17
       systems-per-page = #2
+      indent = 2\cm
     }
     \score { %\articulate
       <<
-        \new StaffGroup <<
-          \new GrandStaff \with { \setGroupDistance #11 #11 } <<
-            \set GrandStaff.instrumentName = "fl"
-            \new Staff {
-              \set Staff.instrumentName = "1"
-              \QuaePlanctusFlautoI
-            }
-            \new Staff {
-              \set Staff.instrumentName = "2"
-              \QuaePlanctusFlautoII
-            }
-          >>
-        >>
-        \new StaffGroup \with { \setGroupDistance #11 #11 } <<
+        \new StaffGroup \with { \smallGroupDistance } <<
           \new Staff <<
-            \set Staff.instrumentName = \markup \center-column { \transposedNameShort "cor" "F" "" "1, 2" }
-            % \transpose c f,
-            \partCombine #'(0 . 10) \QuaePlanctusCornoI \QuaePlanctusCornoII
+            \set Staff.instrumentName = \markup \center-column { "ob" "1, 2" }
+            \partCombine \GaudeOboeI \GaudeOboeII
           >>
         >>
-        \new StaffGroup \with { \setGroupDistance #11 #11 } <<
-          \new GrandStaff \with { \setGroupDistance #11 #11 } <<
+        \new StaffGroup \with { \smallGroupDistance } <<
+          \new Staff <<
+            \set Staff.instrumentName = \markup \center-column { \transposedNameShort "clno/cor" "C" "" \concat { "1, 2 " \critnote } }
+            \partCombine #'(0 . 10) \GaudeCornoI \GaudeCornoII
+          >>
+        >>
+        \new StaffGroup <<
+          \new GrandStaff \with { \smallGroupDistance } <<
             \set GrandStaff.instrumentName = "vl"
             \new Staff {
               \set Staff.instrumentName = "1"
-              \QuaePlanctusViolinoI
+              \GaudeViolinoI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \QuaePlanctusViolinoII
+              \GaudeViolinoII
             }
           >>
           \new Staff {
             \set Staff.instrumentName = "vla"
-            \QuaePlanctusViola
+            \GaudeViola
           }
         >>
-        \new ChoirStaff \with { \setGroupDistance #12 #13 } <<
+        \new ChoirStaff <<
           \new Staff {
-            \set Staff.instrumentName = \markup \center-column { "Filia" "Petri" }
-            \new Voice = "Soli" { \dynamicUp \QuaePlanctusSoli }
+            \set Staff.instrumentName = \markup \center-column { "Sacerdos 2:dus" "Levita" }
+            \new Voice = "Soli" { \dynamicUp \GaudeSoli }
           }
-          \new Lyrics \lyricsto Soli \QuaePlanctusSoliLyrics
+          \new Lyrics \lyricsto Soli \GaudeSoliLyrics
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = \markup \center-column { "org" "b" }
             % \transpose c c,
-            \QuaePlanctusOrgano
+            \GaudeOrgano
           }
         >>
-        \new FiguredBass { \QuaePlanctusBassFigures }
+        \new FiguredBass { \GaudeBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4. = 48 }
+      \midi { \tempo 4 = 110 } %55
     }
   }
 }

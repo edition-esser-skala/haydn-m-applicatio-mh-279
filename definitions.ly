@@ -9,6 +9,7 @@
 FiliaPetri = \markup \remark "Filia Petri"
 Levita = \markup \remark "Levita"
 SacerdosPrimus = \markup \remark "Sacerdos 1:mus"
+SacerdosSecundus = \markup \remark "Sacerdos 2:dus"
 
 
 tempoAnSomnio = \tempoMarkup "Presto"
@@ -16,15 +17,17 @@ tempoAnSomnio = \tempoMarkup "Presto"
   tempoAnSomnioC = \tempoMarkup "Presto"
   tempoAnSomnioD = \tempoMarkup "Andante"
 tempoQuaePlanctus = \tempoMarkup "Allegretto"
+tempoGaude = \tempoMarkup "Allegro"
+  tempoGaudeB = \tempoMarkup "Moderato"
+  tempoGaudeC = \tempoMarkup "Allegro"
 
 
 \include "notes/fl1.ly"
 \include "notes/fl2.ly"
+\include "notes/ob1.ly"
+\include "notes/ob2.ly"
 \include "notes/cor1.ly"
 \include "notes/cor2.ly"
-% \include "notes/clno1.ly"
-% \include "notes/clno2.ly"
-% \include "notes/timp.ly"
 \include "notes/vl1.ly"
 \include "notes/vl2.ly"
 \include "notes/vla.ly"

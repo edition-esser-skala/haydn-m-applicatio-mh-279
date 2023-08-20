@@ -489,3 +489,31 @@ TeLaudamusViolinoI = {
     c4 <g e' c'> q r\fermata \bar "|." %144 finis
   }
 }
+
+AdesteViolinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoAdeste
+    r4 r8 d'\p \appoggiatura e16 d8 c16 h h8 c
+    d8.( g16) h,8 h \appoggiatura h16 a8 a8~ a16 h h( c)
+    \appoggiatura d8 c4 h8 r e e4 a32( g fis e)
+    \appoggiatura e16 d8 d4 \once \slurDashed g32( fis e d) c8~ c32 e d c h8 e
+    h4( a8) r g'( cis,) d4 %5
+    c8( fis,) \tuplet 3/2 8 { g16(-. a-. h-.) c([-. d-. e-.)] } h8( c) r a\f\trill
+    g4 r r2
+    r g'~\p
+    g c,~
+    c h %10
+    g' e~
+    e c
+    dis r4 r8 dis\f
+    e r r g\p \appoggiatura a16 g8 f!16 e e8 f
+    g8.( c16) e,8 e \appoggiatura e16 d8 d~ d16 e e( f) %15
+    \appoggiatura g8 f4 e8 c32(\f e) a,( c) d2~\p
+    d1~
+    d2 a'~
+    a \tempoAdesteB r16 g\f g g g8 r
+    r16 g g g g8 r r16 c c c c8 r %20
+    r4 r8 <fis, a,> <g h,>4 r\fermata \bar "|." %21 finis
+  }
+}

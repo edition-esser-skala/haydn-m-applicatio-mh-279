@@ -21,6 +21,8 @@ tempoGaude = \tempoMarkup "Allegro"
   tempoGaudeB = \tempoMarkup "Moderato"
   tempoGaudeC = \tempoMarkup "Allegro"
 tempoTeLaudamus = \tempoMarkup "Allegro con spirito"
+tempoAdeste = \tempoMarkup "Adagio"
+  tempoAdesteB = \tempoMarkup "Allegro"
 
 
 \include "notes/fl1.ly"

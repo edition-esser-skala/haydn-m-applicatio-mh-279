@@ -195,84 +195,138 @@
   %     \midi { \tempo 4 = 110 } %55
   %   }
   % }
+  % \bookpart {
+  %   \section "4" "Chorus" "Te laudamus o Supremum"
+  %   \addTocLabel "telaudamus"
+  %   \paper { indent = 2.5\cm }
+  %   \score { %\articulate
+  %     <<
+  %       \new StaffGroup <<
+  %         \new GrandStaff <<
+  %           \set GrandStaff.instrumentName = "ob"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \TeLaudamusOboeI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \TeLaudamusOboeII
+  %           }
+  %         >>
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff <<
+  %           \set Staff.instrumentName = \markup \center-column { \transposedNameShort "clno/cor" "C" "" "1, 2" }
+  %           \partCombine #'(0 . 10) \TeLaudamusCornoI \TeLaudamusCornoII
+  %         >>
+  %       >>
+  %       \new StaffGroup <<
+  %         \new GrandStaff \with { \smallGroupDistance } <<
+  %           \set GrandStaff.instrumentName = "vl"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \TeLaudamusViolinoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \TeLaudamusViolinoII
+  %           }
+  %         >>
+  %         \new Staff {
+  %           \set Staff.instrumentName = "vla"
+  %           \TeLaudamusViola
+  %         }
+  %       >>
+  %       \new ChoirStaff <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = \markup \center-column { "S" "Levita" }
+  %           \new Voice = "Soprano" { \dynamicUp \TeLaudamusSoprano }
+  %         }
+  %         \new Lyrics \lyricsto Soprano \TeLaudamusSopranoLyrics
+
+  %         \new Staff {
+  %           \set Staff.instrumentName = \markup \center-column { "A" "Filia Petri" }
+  %           \new Voice = "Alto" { \dynamicUp \TeLaudamusAlto }
+  %         }
+  %         \new Lyrics \lyricsto Alto \TeLaudamusAltoLyrics
+
+  %         \new Staff {
+  %           \set Staff.instrumentName = \markup \center-column { "T" "Sacerdos 1:mus" }
+  %           \new Voice = "Tenore" { \dynamicUp \TeLaudamusTenore }
+  %         }
+  %         \new Lyrics \lyricsto Tenore \TeLaudamusTenoreLyrics
+
+  %         \new Staff {
+  %           \set Staff.instrumentName = \markup \center-column { "B" "Sacerdos 2:dus" }
+  %           \new Voice = "Basso" { \dynamicUp \TeLaudamusBasso }
+  %         }
+  %         \new Lyrics \lyricsto Basso \TeLaudamusBassoLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = \markup \center-column { "org" "b" }
+  %           % \transpose c c,
+  %           \TeLaudamusOrgano
+  %         }
+  %       >>
+  %       \new FiguredBass { \TeLaudamusBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 120 }
+  %   }
+  % }
   \bookpart {
-    \section "4" "Chorus" "Te laudamus o Supremum"
-    \addTocLabel "telaudamus"
-    \paper { indent = 2.5\cm }
+    \section "5" "Recitativo" "Adeste!"
+    \addTocLabel "adeste"
+    \paper {
+      top-system-spacing.basic-distance = #10
+      top-system-spacing.minimum-distance = #10
+      top-markup-spacing.basic-distance = #0
+      top-markup-spacing.minimum-distance = #0
+      markup-system-spacing.basic-distance = #10
+      markup-system-spacing.minimum-distance = #10
+      system-system-spacing.basic-distance = #17
+      system-system-spacing.minimum-distance = #17
+      systems-per-page = #3
+      indent = 2\cm
+    }
     \score { %\articulate
       <<
-        \new StaffGroup <<
-          \new GrandStaff <<
-            \set GrandStaff.instrumentName = "ob"
-            \new Staff {
-              \set Staff.instrumentName = "1"
-              \TeLaudamusOboeI
-            }
-            \new Staff {
-              \set Staff.instrumentName = "2"
-              \TeLaudamusOboeII
-            }
-          >>
-        >>
-        \new StaffGroup <<
-          \new Staff <<
-            \set Staff.instrumentName = \markup \center-column { \transposedNameShort "clno/cor" "C" "" "1, 2" }
-            \partCombine #'(0 . 10) \TeLaudamusCornoI \TeLaudamusCornoII
-          >>
-        >>
         \new StaffGroup <<
           \new GrandStaff \with { \smallGroupDistance } <<
             \set GrandStaff.instrumentName = "vl"
             \new Staff {
               \set Staff.instrumentName = "1"
-              \TeLaudamusViolinoI
+              \AdesteViolinoI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \TeLaudamusViolinoII
+              \AdesteViolinoII
             }
           >>
           \new Staff {
             \set Staff.instrumentName = "vla"
-            \TeLaudamusViola
+            \AdesteViola
           }
         >>
         \new ChoirStaff <<
           \new Staff {
-            \set Staff.instrumentName = \markup \center-column { "S" "Levita" }
-            \new Voice = "Soprano" { \dynamicUp \TeLaudamusSoprano }
+            \set Staff.instrumentName = "Filia Petri"
+            \new Voice = "Soli" { \dynamicUp \AdesteSoli }
           }
-          \new Lyrics \lyricsto Soprano \TeLaudamusSopranoLyrics
-
-          \new Staff {
-            \set Staff.instrumentName = \markup \center-column { "A" "Filia Petri" }
-            \new Voice = "Alto" { \dynamicUp \TeLaudamusAlto }
-          }
-          \new Lyrics \lyricsto Alto \TeLaudamusAltoLyrics
-
-          \new Staff {
-            \set Staff.instrumentName = \markup \center-column { "T" "Sacerdos 1:mus" }
-            \new Voice = "Tenore" { \dynamicUp \TeLaudamusTenore }
-          }
-          \new Lyrics \lyricsto Tenore \TeLaudamusTenoreLyrics
-
-          \new Staff {
-            \set Staff.instrumentName = \markup \center-column { "B" "Sacerdos 2:dus" }
-            \new Voice = "Basso" { \dynamicUp \TeLaudamusBasso }
-          }
-          \new Lyrics \lyricsto Basso \TeLaudamusBassoLyrics
+          \new Lyrics \lyricsto Soli \AdesteSoliLyrics
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = \markup \center-column { "org" "b" }
             % \transpose c c,
-            \TeLaudamusOrgano
+            \AdesteOrgano
           }
         >>
-        \new FiguredBass { \TeLaudamusBassFigures }
+        \new FiguredBass { \AdesteBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 120 }
+      \midi { \tempo 4 = 50 } %100
     }
   }
 }

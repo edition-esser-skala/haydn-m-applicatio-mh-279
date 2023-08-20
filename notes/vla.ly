@@ -489,3 +489,31 @@ TeLaudamusViola = {
     c4 c, c, r\fermata \bar "|." %144 finis
   }
 }
+
+AdesteViola = {
+  \relative c' {
+    \clef alto
+    \key c \major \time 4/4 \tempoAdeste
+    r16 g(\p h d) h( d) g( h) g,8 d'4 d8
+    h( g) r e' e4 c8 h
+    a d d4 r8 c'32( h a g) fis8 r
+    r h32( a g fis) e8 r a, d g, c
+    d4 r16 fis fis fis r cis( e) e r a, a a %5
+    r \once \slurDashed fis( a) a g8 \tuplet 3/2 8 { e'16(-. d-. c-.) } d4 r8 c\f
+    h4 r r2
+    r h~\p
+    h e~
+    e dis %10
+    e gis,~
+    gis a~
+    a r4 r8 a\f
+    g16 c(\p e g) e( g) c( e) c,8 g'4 g8
+    e( c) r a' a4 f8 e %15
+    d( g) g c32(\f e) a,( c) d,2~\p
+    d1~
+    d2 fis,~
+    fis \tempoAdesteB r16 d'\f d d d8 r
+    r16 c c c c8 r r16 g' g g g8 r %20
+    r4 r8 d g,4 r\fermata \bar "|." %21 finis
+  }
+}

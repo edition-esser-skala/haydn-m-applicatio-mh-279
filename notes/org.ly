@@ -969,3 +969,55 @@ TeLaudamusBassFigures = \figuremode {
   <1>4 q q8 q q q
   q4 <5>2. %144 finis
 }
+
+AdesteOrgano = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \tempoAdeste
+    \mvTr g8\p-\soloE r g r g r g r
+    g4 e' c a8 g
+    fis fis' g g, c c'32( h a g) fis8 r
+    h, h'32( a g fis) e8 r a, d g, c
+    d d' d d, a4 d8 r %5
+    d4 e8 c d4 d\f
+    g, r r2
+    r h2~\p
+    h e~
+    e dis %10
+    e gis~
+    gis a~
+    a r4 r8 h,\f
+    c r c\p r c r c r
+    c4 a' f d8 c %15
+    h h' c c32(\f e) a,( c) fis,2~\p
+    fis1~
+    fis~
+    fis2 \tempoAdesteB r16 g\f g g g8 r
+    r16 c, c c c8 r r16 c c c c8 r %20
+    r4 r8 d g,4 r\fermata \bar "|." %21 finis
+  }
+}
+
+AdesteBassFigures = \figuremode {
+  r1
+  r2 <7 5>8 <6 \t> <6\\> <6>
+  q <5> r2 <7>4
+  <7 5\+>4 <7> q8 <7 _+>4.
+  <6 4>4 <5 _+> <7 _+> <8 _+> %5
+  <7! \t>4. <6>8 <6 4> <7 _+> <\t \t>4
+  r1
+  r2 <6>
+  r q
+  q <6 _+> %10
+  r <6>
+  r1
+  <6\\ 4\+>2.. <7 5\+ _+>8
+  r1
+  r2 <7 5>8 <6 \t> <6> q %15
+  q <5>4 <1>32 q q q <6>2
+  r1
+  r2 <5>
+  r1
+  r %20
+  r4. <7 _+>8 r2 %21 finis
+}

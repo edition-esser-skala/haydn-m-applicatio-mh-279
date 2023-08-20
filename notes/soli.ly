@@ -535,3 +535,42 @@ GaudeSoliLyrics = \lyricmode {
   ren -- te gra -- ti -- as re -- fe -- rant %55
   DE -- o. %56 finis
 }
+
+AdesteSoli = {
+  \relative c' {
+    \clef "treble_8"
+    \key c \major \time 4/4 \autoBeamOff \tempoAdeste
+    R1*6 %6
+    r4 r8 d, g g g a
+    h h16 h a8 h g g r g16 g
+    d'8 d d e c c r4
+    c8 c16 c c8 h h16 h r8 fis g16 a %10
+    g8 g r e'16 e e8 h h c
+    d!8. d16 d8 e c c r16 c h a
+    dis dis dis8 dis dis16 e e8 h r4
+    R1*2 %15
+    r2 d4. fis8
+    d r d d d8. a16 a4
+    a a8 g a a r e'
+    c c c d \tempoAdesteB h h r g'
+    e e r e c c r h %20
+    g g r4 r2\fermata \bar "|." %21 finis
+  }
+}
+
+AdesteSoliLyrics = \lyricmode {
+  Ad -- e -- ste! quot -- quot %7
+  e -- stis in tem -- plo De -- i, po -- pu --
+  lum -- que con -- vo -- ca -- te,
+  ut ho -- di -- er -- nam di -- em, no -- bis be -- %10
+  a -- tam, ci -- vi -- bus -- que bo -- nae
+  in -- do -- lis op -- ta -- tam, a -- moe -- nis
+  mu -- si -- ces ce -- le -- bret mo -- dis.
+
+  Haec est %16
+  di -- es, quam Do -- mi -- nus
+  ad no -- strum bo -- num, ad
+  no -- stra fe -- cit vo -- ta: lae --
+  te -- mur, lae -- te -- mur in %20
+  e -- a. %21 finis
+}

@@ -154,3 +154,123 @@ GaudeCornoI = {
     R1\fermata \bar "|." %56 finis
   }
 }
+
+TeLaudamusCornoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoTeLaudamus
+    c'4\fE r c r
+    \pa c, g' e8 c e g
+    c,4 \pd r8 \pa c16 c c8 c c c
+    c4 \pd r8 \pa c16 c c8 c c c
+    c4 \pd r r2 %5
+    r4 f' e d
+    c r8 \pa c,16 c c8 c c c
+    c4 \pd r8 \pa c16 c c8 c c c
+    c4 \pd r r2
+    r4 d' d d %10
+    \pa e8 g, e g c4 \pd r
+    \pao g r \pao d' r
+    R1*3 %15
+    r8 \pa d d d d4 \pd r
+    R1
+    \pao d4 r r2
+    R1
+    \pao d4 r r2 %20
+    \pao d4 r r2
+    \pao g,4 r r2
+    \pao g4 r r2
+    \pa g g
+    d'4 \pd r r2 %25
+    R1
+    r2 r4 \pa d
+    g, \pd r \pao g r
+    R1*2 %30
+    r2 \pa g\fE
+    d'4 \pd r r \pao d
+    d r g r
+    e r \pa d d \pd
+    d r r2 %35
+    \pao d4 r \pao d r
+    \pao d r \pao d r
+    d r r d
+    e r r g
+    \pao d r \pao d r %40
+    r d d r
+    R1*3
+    r4 \pa g,\p g g %45
+    g \pd r r2
+    R1*2
+    r4 g g g
+    g r r2 %50
+    R1*12 %62
+    c4\fE r r8 c c c
+    c4 r r8 c c c
+    c4 r \pao c, r %65
+    \pao c r \pao c r
+    \pa c g' e8 c e g
+    c,4 \pd r8 \pa c16 c c8 c c c
+    c4 \pd r8 \pa c16 c c8 c c c
+    c4 \pd r r2 %70
+    r4 f' e d
+    c r8 \pa c,16 c c8 c c c
+    c4 \pd r8 \pa c16 c c8 c c c
+    c4 \pd r r2
+    r4 d' d d %75
+    \pa e8 g, e g c4 \pd r
+    R1*8 %84
+    r2 r8 \pa g\fE g g %85
+    g4 \pd r r2
+    g4 r g r
+    g r r2
+    g4 r g r
+    g r r2 %90
+    R1*2
+    \pa c,2 c
+    g'4 \pd r r2
+    \pao g4 r r2 %95
+    r4 e' d d8. d16
+    c4 r \pao c, r
+    R1*2
+    r2 \pa c\fE %100
+    g'4 \pd r r d'
+    e r e r
+    f r d d
+    c r r2
+    r4 g c g %105
+    r g8 g c4 g
+    R1
+    r4 g c g
+    R1*6 %114
+    r4 r8 \pa g\f g-! g-! g-! g-! %115
+    g4 \pd r r2
+    g4 r g r
+    g r r2
+    g4 r g r
+    g r r2 %120
+    \pao c,4 r r2
+    \pao c4 r r2
+    \pa c c
+    g'4 \pd r r2
+    \pao g4 r r2 %125
+    r4 e' d d8. d16
+    c4 r8 \pa g e c e g \pd
+    c4 r d r
+    e r g r
+    r g f d %130
+    c r \pao c, r
+    R1
+    r4 r8 \pa g'\fE e c e g \pd
+    c4 r d r
+    e r g r %135
+    r g f d
+    c r r2
+    \pao g4 r \pao g r
+    \pao g r \pao g r
+    g r r c %140
+    c r r d
+    e r d r
+    \pa c, g' e8 c e g
+    c4 c, c \pd r\fermata \bar "|." %144 finis
+  }
+}

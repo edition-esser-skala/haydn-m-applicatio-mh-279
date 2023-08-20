@@ -154,3 +154,123 @@ GaudeCornoII = {
     R1\fermata \bar "|." %56 finis
   }
 }
+
+TeLaudamusCornoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoTeLaudamus
+    c4\fE r c r
+    c g' e8 c e g
+    c,4 r8 c16 c c8 c c c
+    c4 r8 c16 c c8 c c c
+    c4 r r2 %5
+    r4 d' c g
+    e r8 c16 c c8 c c c
+    c4 r8 c16 c c8 c c c
+    c4 r r2
+    r4 c' g g %10
+    g8 g e g c4 r
+    g r d' r
+    R1*3 %15
+    r8 d d d d4 r
+    R1
+    d4 r r2
+    R1
+    d4 r r2 %20
+    d4 r r2
+    g,4 r r2
+    g4 r r2
+    g g
+    d'4 r r2 %25
+    R1
+    r2 r4 d
+    g, r g r
+    R1*2 %30
+    r2 g\fE
+    d'4 r r d
+    g, r g r
+    g r d' d
+    g, r r2 %35
+    d'4 r d r
+    d r d r
+    g, r r g
+    g r r e'
+    d r d r %40
+    r g, g r
+    R1*3
+    r4 g\p g g %45
+    g r r2
+    R1*2
+    r4 g, g g
+    g r r2 %50
+    R1*12 %62
+    c4\fE r r8 e e e
+    e4 r r8 e e e
+    c4 r c r %65
+    c r c r
+    c g' e8 c e g
+    c,4 r8 c16 c c8 c c c
+    c4 r8 c16 c c8 c c c
+    c4 r r2 %70
+    r4 d' c g
+    e r8 c16 c c8 c c c
+    c4 r8 c16 c c8 c c c
+    c4 r r2
+    r4 c' g g %75
+    g8 g e g c4 r
+    R1*8 %84
+    r2 r8 g\fE g g %85
+    g4 r r2
+    g,4 r g r
+    g r r2
+    g4 r g r
+    g r r2 %90
+    R1*2
+    c2 c
+    g'4 r r2
+    g4 r r2 %95
+    r4 c c g8. g16
+    e4 r c r
+    R1*2
+    r2 c\fE %100
+    g'4 r r g
+    c r c r
+    d r g, g
+    e r r2
+    r4 g, c g %105
+    r g8 g c4 g
+    R1
+    r4 g c g
+    R1*6 %114
+    r4 r8 g'\fE g-! g-! g-! g-! %115
+    g4 r r2
+    g,4 r g r
+    g r r2
+    g4 r g r
+    g r r2 %120
+    c4 r r2
+    c4 r r2
+    c c
+    g'4 r r2
+    g4 r r2 %125
+    r4 c c g8. g16
+    e4 r8 g e c e g
+    e4 r g r
+    g r g r
+    r c d g, %130
+    e r c r
+    R1
+    r4 r8 g'\fE e c e g
+    e4 r g r
+    g r g r %135
+    r c d g,
+    e r r2
+    g4 r g r
+    g r g r
+    c, r r c %140
+    c r r c'
+    c r g r
+    c, g' e8 c e g
+    c4 c, c r\fermata \bar "|." %144 finis
+  }
+}

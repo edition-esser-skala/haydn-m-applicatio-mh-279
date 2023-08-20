@@ -671,3 +671,301 @@ GaudeBassFigures = \figuremode {
   r %55
   r4 <7 _+>2. %56 finis
 }
+
+TeLaudamusOrgano = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \tempoTeLaudamus
+    \mvTr c4\fE-\tuttiE r c r
+    c g' e8 c e g
+    b b b b e, e e e
+    f f f f f f f f
+    e e e e e e e e %5
+    f f f f g g g g
+    c,4 r r2
+    c4 r r2
+    c8 c c c e e e e
+    f f f f g g g g %10
+    c, g'16 e c' g e g c8 c h a
+    g g g g fis fis fis fis
+    e e e e d d d d
+    c c c c h h h' h
+    a a g g fis fis g g %15
+    d d' d, d d4 r
+    d r r2
+    d4 r d r
+    d r r2
+    d4 r d r %20
+    d r8 d cis( d) cis( d)
+    e e e e e e e e
+    d d d d d d d d
+    cis cis cis cis cis cis cis cis
+    d4 r r2 %25
+    d4 r r d
+    e8 e h h c! c d d
+    e4 r e r
+    r8 e'\p e e r e e e
+    r d d d r d d d %30
+    r cis,\f cis cis cis cis cis cis
+    d d d d fis fis fis fis
+    g g g g e e e e
+    c! c c c d d d d
+    g4 d'-\soloE h fis %35
+    g8 d a' d, h' d, fis d
+    g d a' d, h' d, fis d
+    g g a a h h h, h
+    c c d d e e c c
+    d r d r d r d r %40
+    g h16 a g8 d16 h g4 r
+    g\p r r2
+    g4 r r2
+    d'4 r d r
+    g, g g g %45
+    g r r2
+    g4 r r2
+    d'4 r d r
+    g, r r8 g' g g
+    f!4 f, r8 f' f f %50
+    e4 e, r8 e' e e
+    e4 c r8 c c c
+    f4 f, r8 f' f d
+    a'4 a, r8 a' a a
+    b4 b, r8 b' b b %55
+    g4 e a a,
+    d' d, r8 d d c!
+    h!4 g r8 g g g'
+    c4 c, r8 c c c
+    c4 d e f %60
+    g8 \mvTr g16\f-\unisonoE a h c d c h8 h16 c d e f e
+    f8 d h g f d h g
+    c4-\tuttiE r r8 c16 h c d e d
+    e8 c c'4 r8 c,16 d e f g f
+    e8 c c'4 r8 c,16 d e f g f %65
+    e8 c c'4 r8 c,16 d e f g e
+    c4 g' e8 c e g
+    c e, e e e e e e
+    f f f f f f f f
+    e e e e e e e e %70
+    f f f f g g g g
+    c,4 r r2
+    c4 r r2
+    c8 c c c e e e e
+    f f f f g g g g %75
+    c, g'16 e c' g e g c8 b a g
+    f4 r e r
+    d8 d d d c c c c
+    b b b b a a a' a
+    g g g g e e c c %80
+    f f f f f f f f
+    g g g g h,! h h h
+    c c c c e e e e
+    f4\p f f fis
+    g g, r2 %85
+    g'4\f r r2
+    g4 r g r
+    g r r2
+    g4 r g r
+    g r8 g fis( g) fis( g) %90
+    a a a a a, a a a
+    g g g g g g g g
+    fis fis fis fis fis fis fis fis
+    g4 r r2
+    g4 r r g' %95
+    a8 a e e f! f g g
+    a4 r a r
+    r8 a\p a a r a a a
+    r g g g r g g g
+    r fis\f fis fis fis fis fis fis %100
+    g g g g h h h h
+    c c c c a a a a
+    f! f f f g g g g
+    c,4 c'-! e-! h-!
+    c8 g d' g, e' g, h g %105
+    c g d' g, e' g, h g
+    c g d' g, e' g, h g
+    c g d' g, e' g, h g
+    c4\p c b b
+    a a g g %110
+    f f e e
+    d d c! c
+    h! h a a
+    g g g g
+    g r r2 %115
+    g'4\f r r2
+    g4 r g r
+    g r r2
+    g4 r g r
+    g r8 g fis( g) fis( g) %120
+    a a a a a, a a a
+    g g g g g g g g
+    fis fis fis fis fis' fis fis fis
+    g4 r r2
+    g4 r r g %125
+    a8 a e e f! f g g
+    c,4 r8 c e c e g
+    c4 r h r
+    c r g r
+    a8 a e e f f g g %130
+    a4 r a r
+    f,2\p g
+    c4 r8 c\f e c e g
+    c4 r h r
+    c r g r %135
+    a8 a e e f f g g
+    c,4 c'-\soloE e h
+    c8 g d' g, e' g, h g
+    c g d' g, e' g, h g
+    c c d d e e e, e %140
+    f f g g a a f f
+    g g g g g, g g g
+    c4 g' e8 c e g
+    c4 c, c r\fermata \bar "|." %144 finis
+  }
+}
+
+TeLaudamusBassFigures = \figuremode {
+  r1
+  <8 3>2.. \once \bassFigureExtendersOn q8
+  <2>2 <6 5->
+  r1
+  <6> %5
+  <7>4 <6> <6 4> <7 5>
+  r1
+  <6 4>
+  r2 <6>
+  <7 5>4 <6 \t> <8> <7> %10
+  r2. <6>8 <6\\>
+  r2 <6>
+  q <7 _+>4 <6 \t>
+  <6>2 <7 5\+>4 <6>
+  <6\\>2 <6 5> %15
+  <6 4>4 <5 _+>2.
+  <6 4>2 <7 _+>
+  <6 4> <7 _+>
+  <6 4> <7 _+>
+  <6 4> <7 _+> %20
+  <7 4>8 <6 \t> <5 _+>2.
+  <6!>1
+  <6 4>
+  <6 5>
+  <_+> %25
+  <8 6 _+>4 <7 5 \t> <6 4> <7 _+>
+  <5> <6> <6 5> <_+>
+  <5>1
+  <6>
+  <6 4> %30
+  <6 5>
+  <_ _ _+>4 <9 7 \t> <6 4> <5 3>
+  r1
+  <6 5>2 <4>4 <_+>
+  <\l>2 \once \bassFigureExtendersOn q4 <6> %35
+  <3>8 <\t> <6\\> <\t> <6> <\t> <6 5> <\t \t>
+  <3> <\t> <6\\> <\t> <6> <\t> <6 5> <\t \t>
+  r4 <6\\> <6>2
+  r4 <6 4> <6> <6 5>
+  <6 4> <\t \t> <7 _+> <\t \t> %40
+  r1
+  r
+  r
+  <5 _+>4 <6 4> <8 6 _+> <7 5 \t>
+  r1 %45
+  r
+  r
+  <5 _+>4 <6 4> <8 6 _+> <7 5 \t>
+  r1
+  <2> %50
+  <6>2 r8 <6 5->4.
+  <\t \t>1
+  <9 4->4 <8 3>2 <6>4
+  <8 _+>2 <7 \t>
+  r1 %55
+  <6 _->2 <7 _+>
+  r1
+  <6 5>
+  r
+  <\l>2 \once \bassFigureExtendersOn q4 <8 6>8 <7 5> %60
+  r1
+  r
+  <5 3>1 \bassFigureExtendersOn
+  q
+  q %65
+  q2... q16
+  <7->1
+  q2.. q8 \bassFigureExtendersOff
+  r1
+  <6> %70
+  <7>4 <6> <6 4> <7 5>
+  r1
+  <6 4>
+  <5 3>2 <6>
+  <7 5>4 <6 \t> <8> <7> %75
+  r2 r8 <\t> <6> <6 _->
+  r2 <6>
+  <6-> <7->4 <6>
+  <6>2 <7>4 <6>
+  <6 _->2.. \once \bassFigureExtendersOn q8 %80
+  <9 4->4 <8 3> <6>4. <7>8
+  <8 _!>4 <7 \t> <6 5>2
+  <9 4>4 <8 3> <6>2
+  q2. <7>4
+  <6 4> <7 3>2. %85
+  <6 4>2 <7 3>
+  <6 4> <7 3>
+  <6 4> <7 3>
+  <6 4> <7 3>
+  <7 4>8 <6 \t> <5 3>2. %90
+  <6>1
+  <6 4>
+  <6 5>
+  r1
+  <8 6>4 <7! 5> <6 4> <7 5> %95
+  <5> <6> <6 5>2
+  <5>1
+  <6>
+  <6 4>
+  <6 5> %100
+  r4 <9 7!> <6 4> <7 3>
+  r1
+  <6 5>2 <4>4 <3>
+  r2 <6>4 q
+  <3>8 <\t> <6> <\t> <6> <\t> <6 5> <\t \t> %105
+  <3> <\t> <6> <\t> <6> <\t> <6 5> <\t \t>
+  <3> <\t> <6> <\t> <6> <\t> <6 5> <\t \t>
+  <3> <\t> <6> <\t> <6> <\t> <6 5> <\t \t>
+  r2 <2>
+  <6> <6 _-> %110
+  r <6\\>
+  r <2>
+  <6 5>2 <4 3>
+  <7>1
+  <\t> %115
+  <6 4>2 <7 3>
+  <6 4> <7 3>
+  <6 4> <7 3>
+  <6 4> <7 3>
+  <7 4>8 <6 \t> <5 3>2. %120
+  <6>1
+  <6 4>
+  <6 5>
+  r
+  <8 6>4 <7! 5> <6 4> <7 3> %125
+  <5> <6> <6 5>2
+  r2 <\l>4. \once \bassFigureExtendersOn q8
+  r2 <6>
+  r <6 4>4 <5 3>
+  r <6> <6 5>2 %130
+  <5>1
+  r2 <8 6>4 <7 5>
+  <9 4> <8 3>2.
+  r2 <6>
+  r <6 4>4 <5 3> %135
+  r <6> <6 5>2
+  r2 <6>4 q
+  <3>8 <\t> <6> <\t> <6> <\t> <6 5> <\t \t>
+  <3> <\t> <6> <\t> <6> <\t> <6 5> <\t \t>
+  r4 <6> q2 %140
+  r4 <6 4> <6> <6 5>
+  <6 4>2 <7 5>
+  <1>4 q q8 q q q
+  q4 <5>2. %144 finis
+}

@@ -338,3 +338,154 @@ GaudeViola = {
     r4 d'\f d r\fermata \bar "|." %56 finis
   }
 }
+
+TeLaudamusViola = {
+  \relative c' {
+    \clef alto
+    \key c \major \time 4/4 \tempoTeLaudamus
+    c4\fE r c r
+    c g' e8 c e g
+    b b b b e, e e e
+    f f f f f f f f
+    e e e e e e e e %5
+    f f f f g g g g
+    c, c c c c c c c
+    c c c c c c c c
+    c c c c e e e e
+    f f f f g g g g %10
+    c, g'16 e c' g e g c8 c h a
+    g g g g fis fis fis fis
+    e e e e d d d d
+    c c c c h h h' h
+    a a g g fis fis g g %15
+    d d' d, d d4 r
+    d r r2
+    d4 r d r
+    d r r2
+    d4 r d r %20
+    d r8 d cis( d) cis( d)
+    e e e e e e e e
+    d d d d d d d d
+    cis cis cis cis cis cis cis cis
+    d4 r r2 %25
+    d4 r r d
+    e8 e h h c! c d d
+    e4 r e r
+    r8 e\p e e r e e e
+    r d d d r d d d %30
+    r cis\f cis cis cis cis cis cis
+    d d d d fis fis fis fis
+    g g g g e e e e
+    c! c c c d d d d
+    g4 d' h fis %35
+    g8 d a' d, h' d, fis d
+    g d a' d, h' d, fis d
+    g g a a h h h, h
+    c c d d e e c c
+    d r d r d r d r %40
+    g h16 a g8 d16 h g4 r
+    g'8\p g g g g g g g
+    d d d d d d d d
+    d d d d d d d d
+    d( g) g( d) d( h) h( g) %45
+    g g g g g g g g
+    d' d d d d d g, g
+    fis fis g g d d d d
+    d4 r r8 d' d d
+    d4 d r8 d d d %50
+    c4 c r8 g g g
+    g4 g r8 e' e e
+    c4 c r8 c d f
+    e4 e r8 cis cis cis
+    d4 f, r8 b b b %55
+    g4 e a a
+    a a r8 f' f f
+    d4 d r8 d d d
+    e4 c! r8 e e e
+    c4 d e f %60
+    g8 g16\f a h c d c h,8 h16 c d e f e
+    f8 d' h g f d h g
+    c4 r r8 c16 h c d e d
+    e8 c c'4 r8 c,16 d e f g f
+    e8 c c'4 r8 c,16 d e f g f %65
+    e8 c c'4 r8 c,16 d e f g e
+    c4 g' e8 c e g
+    c e, e e e e e e
+    f f f f f f f f
+    e e e e e e e e %70
+    f f f f g g g g
+    c, c, c c c c c c
+    c c c c c c c c
+    c' c c c e e e e
+    f f f f g g g g %75
+    c, g'16 e c' g e g c8 b a g
+    f4 r e r
+    d8 d d d c c c c
+    b b b b a a a' a
+    g g g g e e c c %80
+    f f f f f f f f
+    g g g g h,! h h h
+    c c c c e e e e
+    f4\p f f fis
+    g g, r2 %85
+    g'4\f r r2
+    g4 r g r
+    g r r2
+    g4 r g r
+    g r8 g fis( g) fis( g) %90
+    a a a a a, a a a
+    g g g g g g g g
+    fis fis fis fis fis fis fis fis
+    g4 r r2
+    g4 r r g' %95
+    a8 a e e f! f g g
+    a4 r a r
+    r8 a,\p a a r a a a
+    r g g g r g g g
+    r fis\f fis fis fis fis fis fis %100
+    g g g g h h h h
+    c c c c a' a a a
+    f! f f f g g g g
+    c,4 c'-! e-! h-!
+    c8 g d' g, e' g, h g %105
+    c g d' g, e' g, h g
+    c g d' g, e' g, h g
+    c g d' g, e' g, h g
+    c4\p c b b
+    a a g g %110
+    f f e e
+    d d c! c
+    h! h a a
+    g g g g
+    g r r2 %115
+    g'4\f r r2
+    g4 r g r
+    g r r2
+    g4 r g r
+    g r8 g fis( g) fis( g) %120
+    a a a a a, a a a
+    g g g g g g g g
+    fis fis fis fis fis' fis fis fis
+    g4 r r2
+    g4 r r g %125
+    a8 a e e f! f g g
+    c,4 r8 c e c e g
+    c4 r h r
+    c r g r
+    a8 a e e f f g g %130
+    a4 r a r
+    c,2\p h
+    g4 r8 c\f e c e g
+    c4 r h r
+    c r g r %135
+    a8 a e e f f g g
+    c,4 c e h
+    c8 g d' g, e' g, h g
+    c g d' g, e' g, h g
+    c c d d e e e e %140
+    f f g g a a f f
+    g r g, r g r f r
+    e4 g' e8 c e g
+    c4 c, c, r\fermata \bar "|." %144 finis
+  }
+}

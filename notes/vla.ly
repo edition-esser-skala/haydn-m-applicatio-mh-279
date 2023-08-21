@@ -517,3 +517,166 @@ AdesteViola = {
     r4 r8 d g,4 r\fermata \bar "|." %21 finis
   }
 }
+
+ODiesViola = {
+  \relative c' {
+    \clef alto
+    \key g \major \time 6/8 \tempoODies
+    \partial 8 r8 g'\fE r r g r r
+    g, g g e' e e
+    c c d e4 a,8
+    a d d d g d
+    h h c d[ r a] %5
+    h h c d[ r d]
+    h' g g g g g
+    g e e e e e\p
+    d r r d r r
+    e e e e d\f c %10
+    h h h h h h
+    c c c e e e
+    d d d d d d
+    d r r cis(\p d) e
+    \appoggiatura e4 d4. fis,8( g) a %15
+    \appoggiatura a g4 g8 g r r
+    g'\f r r g r r
+    g, g g e' e e
+    c c' h a c a
+    fis d fis g h g %20
+    c, c'16 h a g fis8[ r fis]
+    h h16 a g fis e8[ r e]
+    a a16 g fis e d8 d cis
+    d d' d d d, r
+    a r r a[ r a'] %25
+    a a a a4 a,8
+    a r r a' r r
+    a a a a r c,!
+    h h c d[ r a]
+    h h c d[ r a] %30
+    h h c d[ r a]
+    h g' g h,[ r h]
+    c c c c[ r c]
+    d d d d d d
+    e e-!\p e-! e-! r r %35
+    h\f h h h h h
+    c c c c c c
+    d d d d d d
+    d r r cis(\p d) e
+    \appoggiatura e4 d4. fis,8( g) a %40
+    \appoggiatura a g4 g8 g r r
+    e'4. h
+    h8 e, e e e e
+    e4. h'
+    h8 e, e e e e %45
+    e r r r4 r8
+    r fis' fis fis g a
+    h e, r ais, ais ais
+    h e e dis r r
+    r4 r8 c\fz c c %50
+    h fis' fis fis r r
+    e4.\p h
+    e,8 r r r4 r8
+    e'4. h
+    e,8 r r r4 r8 %55
+    e'4. c
+    a8 fis fis fis g a
+    h h h ais ais ais
+    h r r r4 r8
+    r h'\f fis dis fis16 dis fis dis %60
+    h8 r r r4 r8
+    h\p r r r4 r8
+    g r r g r r
+    c,2.~
+    c8[ r c] g'[ r g] %65
+    c2.~
+    c8[ r e,] d[ r g]
+    c,2.~
+    c8 r r r4 r8
+    f' r r r f d %70
+    e r r r e c
+    g' r r h,( c) g
+    g4 r8 r4 r8
+    f'\p r r r f d
+    e r r r e c %75
+    f f f g g g
+    c e,\f g c r r
+    gis\p r r gis r r
+    a r r a r r
+    gis r r gis r r %80
+    a r r g r r
+    fis! r r fis r r
+    g r r g r r
+    e4. d
+    c h %85
+    a c8(\fz h) a
+    g[\p r g] c[ r c]
+    d d d d\f d d
+    d d d d d d
+    d d d d d d %90
+    a2.\p
+    a
+    a
+    a
+    a %95
+    d4 r8 r4 r8
+    d4 r8 r4 r8
+    d4 r8 r4\fermata r8
+    g\f r r g r r
+    g, g g e' e e\p %100
+    c c d e4 a,8
+    a d d g d\f h
+    g r r g r r
+    g g g e' e e
+    c c' h a c a %105
+    fis d fis g h g
+    c, c'16 h a g fis8[ r fis]
+    h h16 a g fis e8[ r e]
+    a a16 g fis e d8 d cis
+    d d' d d d, r %110
+    a r r a[ r a']
+    a a a a4 a,8
+    a r r a' r r
+    a a a a[ r c,!]
+    h h c d[ r a] %115
+    h h c d[ r a]
+    h h c d[ r a]
+    h g' g h,[ r h]
+    c c c c[ r c]
+    d d d d d d %120
+    g h, d g,4 r8
+    a[ r cis] cis d e
+    e4( d8) d4 r8
+    a\pE r r a' r r
+    a a a a4 a,8 %125
+    a r r a' r r
+    a a a a[ r c,!]\f
+    h h c d[ r a]
+    h h c d[ r a]
+    h h c d[ r a] %130
+    h g' g h,[ r h]
+    c c c c[ r c]
+    d d d d d d
+    e e-!\p e-! e-\parenthesize-! r r
+    h\f h h h h h %135
+    c c c c c c
+    d d d d d d
+    d r r cis(\p d) e
+    \appoggiatura e4 d4. d
+    d cis8( d) e %140
+    \appoggiatura e4 d4. d
+    d cis8( d) e
+    \appoggiatura e4 d4. d
+    d4 d8 d r r
+    g\f r r g r r %145
+    g g, g' g g, c
+    d d d d d d
+    g g-!\p g-! g-! r r
+    g\f r r g r r
+    g g, g' g g, c %150
+    d d d d d d
+    g, g' h d[ r d,]
+    g g h d[ r d,]
+    g4 r8 r4 r8
+    r h-! d-! g,-! h,-! d-! %155
+    g,4 r8 r4\fermata \bar "|." %156 finis
+  }
+}

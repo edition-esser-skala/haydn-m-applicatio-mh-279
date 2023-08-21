@@ -158,3 +158,120 @@ TeLaudamusOboeII = {
     c4 e e r\fermata \bar "|." %144 finis
   }
 }
+
+ODiesOboeII = {
+  \relative c' {
+    \clef treble
+    \key g \major \time 6/8 \tempoODies
+    \partial 8 r8 g'2.\fE
+    g4 r8 r r g
+    e4 gis8 a4 c8
+    a fis a d, r r
+    d2. %5
+    d
+    d8 g h d4 d8
+    e e g e,4 a8\p
+    g r r fis r r
+    g r r r4 r8 %10
+    g4.\f g
+    e c'
+    g fis
+    g8 r r r4 r8
+    R2. %15
+    r4 r8 r r h\fE
+    h a g g a h
+    h4. g4 g8
+    e4 gis8 a4 c8
+    a4. g8[ r h] %20
+    c c c a'4.
+    r8 h, h g'4.
+    r8 a, a a g g
+    g4. fis4 r8
+    r4 r8 e' d cis %25
+    cis4( d8) a4.~
+    a e'8 d cis
+    cis4( d8) d4 r8
+    d,2.
+    d %30
+    d
+    d8 g h d4 d8
+    e e g e,4 a8
+    g r r fis r r
+    g r r r r g %35
+    g4. g
+    e~ e8 c' a
+    g4. fis
+    g8 r r r4 r8
+    R2.*11 %50
+    r8 dis'\fE dis dis4 r8
+    g,4.\p a
+    g8 r r r4 r8
+    g4. a
+    g8 r r r4 r8 %55
+    R2.*4
+    r8 h\fE fis dis fis dis %60
+    h r r r4 r8
+    R2.*15 %76
+    r8 e\fE g c r r
+    R2.*10 %87
+    r4 r8 fis4.\fE
+    e g,
+    fis r4 r8 %90
+    R2.*7 %97
+    R2.\fermata
+    g8\fE r r g r r
+    g2. %100
+    R
+    r4 r8 g\fE h d
+    g,2.~
+    g4 h8 g4 g8
+    e4 gis8 a4 c8 %105
+    a4. g8[ r h]
+    c c c a'4.
+    r8 h, h g'4.
+    r8 a, a a g g
+    g4. fis4 r8 %110
+    r4 r8 e' d cis
+    cis4( d8) a4.~
+    a e'8 d cis
+    cis4( d8) d4 r8
+    d,2. %115
+    d
+    d
+    d8 g h d4 d8
+    e e g e,4 a8
+    g r r fis r r %120
+    g[ r h] h r r
+    r4 r8 e d cis
+    cis4( d8) a4.~\p
+    a e'8 d cis
+    cis4( d8) a4.~ %125
+    a e'8 d cis
+    cis4( d8) d4 r8
+    d,2.\f
+    d
+    d %130
+    d8 g h d4 d8
+    e e g e,4 a8
+    g r r fis r r
+    g r r r r g
+    g4. g %135
+    e~ e8 c' a
+    g4. fis
+    g8 r r r4 r8
+    R2.*5 %143
+    r4 r8 r r h\fE
+    h a g g a h %145
+    h4. g4 g8
+    g4. a
+    g8 r r r r h
+    h a g g a h
+    h4. g4 g8 %150
+    g4. fis
+    g8 r r a r r
+    h r r a r r
+    h2.
+    h8 r r h r r %155
+    h4 r8 r4\fermata \bar "|." %156 finis
+  }
+}

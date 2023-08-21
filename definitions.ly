@@ -23,6 +23,7 @@ tempoGaude = \tempoMarkup "Allegro"
 tempoTeLaudamus = \tempoMarkup "Allegro con spirito"
 tempoAdeste = \tempoMarkup "Adagio"
   tempoAdesteB = \tempoMarkup "Allegro"
+tempoODies = \tempoMarkup "Allegro scherzante"
 
 
 \include "notes/fl1.ly"

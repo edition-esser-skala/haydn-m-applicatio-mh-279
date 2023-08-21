@@ -275,58 +275,139 @@
   %     \midi { \tempo 4 = 120 }
   %   }
   % }
+  % \bookpart {
+  %   \section "5" "Recitativo" "Adeste!"
+  %   \addTocLabel "adeste"
+  %   \paper {
+  %     top-system-spacing.basic-distance = #10
+  %     top-system-spacing.minimum-distance = #10
+  %     top-markup-spacing.basic-distance = #0
+  %     top-markup-spacing.minimum-distance = #0
+  %     markup-system-spacing.basic-distance = #10
+  %     markup-system-spacing.minimum-distance = #10
+  %     system-system-spacing.basic-distance = #17
+  %     system-system-spacing.minimum-distance = #17
+  %     systems-per-page = #3
+  %     indent = 2\cm
+  %   }
+  %   \score { %\articulate
+  %     <<
+  %       \new StaffGroup <<
+  %         \new GrandStaff \with { \smallGroupDistance } <<
+  %           \set GrandStaff.instrumentName = "vl"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \AdesteViolinoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \AdesteViolinoII
+  %           }
+  %         >>
+  %         \new Staff {
+  %           \set Staff.instrumentName = "vla"
+  %           \AdesteViola
+  %         }
+  %       >>
+  %       \new ChoirStaff <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "Filia Petri"
+  %           \new Voice = "Soli" { \dynamicUp \AdesteSoli }
+  %         }
+  %         \new Lyrics \lyricsto Soli \AdesteSoliLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = \markup \center-column { "org" "b" }
+  %           % \transpose c c,
+  %           \AdesteOrgano
+  %         }
+  %       >>
+  %       \new FiguredBass { \AdesteBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 50 } %100
+  %   }
+  % }
   \bookpart {
-    \section "5" "Recitativo" "Adeste!"
-    \addTocLabel "adeste"
-    \paper {
-      top-system-spacing.basic-distance = #10
-      top-system-spacing.minimum-distance = #10
-      top-markup-spacing.basic-distance = #0
-      top-markup-spacing.minimum-distance = #0
-      markup-system-spacing.basic-distance = #10
-      markup-system-spacing.minimum-distance = #10
-      system-system-spacing.basic-distance = #17
-      system-system-spacing.minimum-distance = #17
-      systems-per-page = #3
-      indent = 2\cm
-    }
+    \section "6" "Chorus" "O dies amoena beata"
+    \addTocLabel "odies"
+    \paper { indent = 2.5\cm }
     \score { %\articulate
       <<
+        \new StaffGroup <<
+          \new GrandStaff <<
+            \set GrandStaff.instrumentName = "ob"
+            \new Staff {
+              \set Staff.instrumentName = "1"
+              \ODiesOboeI
+            }
+            \new Staff {
+              \set Staff.instrumentName = "2"
+              \ODiesOboeII
+            }
+          >>
+        >>
+        \new StaffGroup <<
+          \new Staff <<
+            \set Staff.instrumentName = \markup \center-column { \transposedNameShort "cor" "G" "" "1, 2" }
+            % \transpose c g,
+            \partCombine #'(0 . 10) \ODiesCornoI \ODiesCornoII
+          >>
+        >>
         \new StaffGroup <<
           \new GrandStaff \with { \smallGroupDistance } <<
             \set GrandStaff.instrumentName = "vl"
             \new Staff {
               \set Staff.instrumentName = "1"
-              \AdesteViolinoI
+              \ODiesViolinoI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \AdesteViolinoII
+              \ODiesViolinoII
             }
           >>
           \new Staff {
             \set Staff.instrumentName = "vla"
-            \AdesteViola
+            \ODiesViola
           }
         >>
         \new ChoirStaff <<
           \new Staff {
-            \set Staff.instrumentName = "Filia Petri"
-            \new Voice = "Soli" { \dynamicUp \AdesteSoli }
+            \set Staff.instrumentName = "S"
+            \new Voice = "Soprano" { \dynamicUp \ODiesSoprano }
           }
-          \new Lyrics \lyricsto Soli \AdesteSoliLyrics
+          \new Lyrics \lyricsto Soprano \ODiesSopranoLyrics
+
+          \new Staff {
+            \set Staff.instrumentName = \markup \center-column { "A" "Filia Petri" }
+            \new Voice = "Alto" { \dynamicUp \ODiesAlto }
+          }
+          \new Lyrics \lyricsto Alto \ODiesAltoLyrics
+
+          \new Staff {
+            \set Staff.instrumentName = \markup \center-column { "T" "Sacerdos 1:mus" }
+            \new Voice = "Tenore" { \dynamicUp \ODiesTenore }
+          }
+          \new Lyrics \lyricsto Tenore \ODiesTenoreLyrics
+
+          \new Staff {
+            \set Staff.instrumentName = \markup \center-column { "B" "Sacerdos 2:dus" }
+            \new Voice = "Basso" { \dynamicUp \ODiesBasso }
+          }
+          \new Lyrics \lyricsto Basso \ODiesBassoLyrics
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = \markup \center-column { "org" "b" }
             % \transpose c c,
-            \AdesteOrgano
+            \ODiesOrgano
           }
         >>
-        \new FiguredBass { \AdesteBassFigures }
+        \new FiguredBass { \ODiesBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 50 } %100
+      \midi { \tempo 4. = 60 }
     }
   }
 }

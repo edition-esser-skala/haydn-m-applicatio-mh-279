@@ -243,3 +243,182 @@ TeLaudamusSopranoLyrics = \lyricmode {
   ma --
   mus. %137 finis
 }
+
+ODiesSoprano = {
+  \relative c' {
+    \clef treble
+    \key g \major \time 6/8 \autoBeamOff \tempoODies
+    \partial 8 r8 R2.*15 %15
+    r4 r8 r r \mvTr d'\fE^\tuttiE
+    d c h h c d
+    d4( g8) h,4 h8
+    h a h c a e'
+    d4( c8) h r r %20
+    e8. e16 e8 e a16([ g)] fis([ e)]
+    d8 d d d g16([ fis)] e([ d)]
+    c4.~ c8 h h
+    d4( h8) a r d
+    g fis e e d cis %25
+    cis4( d8) d4 fis8
+    g fis e e d cis
+    cis4( d8) d4 r8
+    R2.
+    d8 d d d8. d,16 d8 %30
+    d' d d d8. d,16 d8
+    d'4.~ d8 g h,
+    a8. a16 a8 a c a
+    g4.( a)
+    g8 r r r r h %35
+    d4.~ d8 g h,
+    a4.~ a8 e' c
+    h4.( a)\trill
+    g8 r r r4 r8
+    R2.*20 %59
+    \mvTr h4\fE^\tutti r8 r4 r8 %60
+    h4 r8 r4 r8
+    R2.*27 %88
+    \mvTr cis4\fE^\tuttiE r8 r4 r8
+    d4 r8 r4 r8 %90
+    R2.*7 %97
+    R2.\fermata
+    R2.*3 %101
+    r4 r8 r r \mvTr d\fE^\tuttiE
+    d c h h c d
+    d4( g8) h,4 h8
+    h a h c a e' %105
+    d4( c8) h r r
+    e8. e16 e8 e a16([ g)] fis([ e)]
+    d8 d d d g16([ fis)] e([ d)]
+    c4.~ c8 h h
+    d4( h8) a r d %110
+    g fis e e d cis
+    cis4( d8) d4 fis8
+    g fis e e d cis
+    cis4( d8) d4 r8
+    R2. %115
+    d8 d d d8. d,16 d8
+    d' d d d8. d,16 d8
+    d'4.~ d8 g h,
+    a8. a16 a8 a c a
+    g4.( a) %120
+    g8 r r r4 r8
+    R2.
+    r4 r8 r4 d'8\p
+    g fis e e d cis
+    cis4( d8) d4 fis8 %125
+    g fis e e d cis
+    cis4( d8) d4 r8
+    R2.
+    d8\f d d d8. d,16 d8
+    d' d d d8. d,16 d8 %130
+    d'4.~ d8 g h,
+    a8. a16 a8 a c a
+    g4.( a)
+    g8 r r r r h
+    d4.~ d8 g h, %135
+    a4.~ a8 e' c
+    h4.( a)\trill
+    g8 r r r4 r8
+    r4 r8 c!([\p h)] fis
+    \appoggiatura fis g4 g8 r4 r8 %140
+    r4 r8 c!([ h)] fis
+    \appoggiatura fis g4 g8 r4 r8
+    r4 r8 c!([ h)] fis
+    \appoggiatura fis g4 g8 r r d'\f
+    d c h h c d %145
+    d4( g8) h,4 e8
+    g,4.( a4 c8)
+    h r r r r d
+    d c h h c d
+    d4( g8) h,4 e8 %150
+    g,4.( a)\trill
+    g4 r8 r4 r8
+    R2.*3 %155
+    r4 r8 r4\fermata \bar "|." %156 finis
+  }
+}
+
+ODiesSopranoLyrics = \lyricmode {
+  O %16
+  di -- es a -- moe -- na be --
+  a -- ta et
+  di -- is et fi -- li -- is
+  gra -- ta! %20
+  cal -- cu -- lo can -- di -- do
+  cor -- dis in in -- ti -- mo
+  va -- se no --
+  ta -- ta. O
+  di -- es a -- moe -- na be -- %25
+  a -- ta et
+  di -- is et fi -- li -- is
+  gra -- ta
+
+  cal -- cu -- lo can -- di -- do %30
+  cor -- dis in in -- ti -- mo,
+  cor -- dis in
+  in -- ti -- mo va -- se no --
+  ta --
+  ta, in %35
+  in -- ti -- mo
+  cor -- dis no --
+  ta --
+  ta.
+
+  O, %60
+  o!
+
+  O, %89
+  o! %90
+
+  O %102
+  di -- es a -- moe -- na be --
+  a -- ta et
+  di -- is et fi -- li -- is %105
+  gra -- ta,
+  cal -- cu -- lo can -- di -- do
+  cor -- dis in in -- ti -- mo
+  va -- se no --
+  ta -- ta. O %110
+  di -- es a -- moe -- na be --
+  a -- ta et
+  di -- is et fi -- li -- is
+  gra -- ta,
+  %115
+  cal -- cu -- lo can -- di -- do
+  cor -- dis in in -- ti -- mo,
+  cor -- dis in
+  in -- ti -- mo va -- se no --
+  ta -- %120
+  ta.
+
+  O
+  di -- es a -- moe -- na be --
+  a -- ta et %125
+  di -- is et fi -- li -- is
+  gra -- ta,
+
+  cal -- cu -- lo can -- di -- do
+  cor -- dis in in -- ti -- mo, %130
+  cor -- dis in
+  in -- ti -- mo va -- se no --
+  ta --
+  ta, in
+  in -- ti -- mo %135
+  cor -- dis no --
+  ta --
+  ta.
+  O, __ o
+  di -- es, %140
+  o __ a --
+  moe -- na,
+  o __ be --
+  a -- ta, o
+  di -- es a -- moe -- na be -- %145
+  a -- ta, be --
+  a --
+  ta, o
+  di -- es a -- moe -- na be --
+  a -- ta, be -- %150
+  a --
+  ta! %152 finis
+}

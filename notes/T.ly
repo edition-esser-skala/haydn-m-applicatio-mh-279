@@ -256,3 +256,230 @@ TeLaudamusTenoreLyrics = \lyricmode {
   ma --
   mus. %137 finis
 }
+
+ODiesTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key g \major \time 6/8 \autoBeamOff \tempoODies
+    \partial 8 r8 R2.*15 %15
+    r4 r8 r r \mvTr g\fE^\tuttiE
+    h c d d c h
+    h4( d8) g4 h,8
+    c e d e e c
+    d4. d8 r r %20
+    e e16([ d)] c([ h)] a8. a16 a8
+    d d16([ c)] h([ a)] g8. g16 g8
+    c c16([ h)] a([ g)] fis8 g e'
+    d4. d8 r a
+    cis d e cis d e %25
+    e4( d8) a4 a8
+    cis d e cis d e
+    e4( d8) a4 r8
+    R2.
+    h8 h c d8. d16 a8 %30
+    h h c d8. d16 a8
+    g4( h8) d4 d8
+    e8. e16 e8 e e c
+    h4.( fis)
+    g8 r r r r g %35
+    g4 h8 d4.
+    e~ e8 c e
+    d4.( c)
+    h8 r r r4 r8
+    R2.*2 %41
+    \mvTr h4.~\pE^\SacerdosPrimus^\soloE h8 e dis
+    e4 h8 h r h
+    h4.~ h8 e dis
+    e4 h8 h r r %45
+    g'4. g8([ fis)] e
+    \appoggiatura e dis4 dis8 dis4.
+    e~ e8 g, g
+    g4. fis8 r r
+    e'4 r8 r4 r8 %50
+    dis4 r8 r4 r8
+    h4.~ h8 e dis
+    e4 h8 h r h
+    h4.~ h8 e dis
+    e4 h8 h r r %55
+    g'4. g8([ fis)] e
+    \appoggiatura e dis4 dis8 dis4.
+    e8. h16 h8 g'4.
+    fis8 r r r4 r8
+    \mvTr fis,4\fE^\tutti r8 r4 r8 %60
+    fis4 r8 r4 r8
+    R2.*27 %88
+    \mvTr e'4\fE^\tutti r8 r4 r8
+    fis4 r8 r4 r8 %90
+    R2.*2
+    \mvTr e4.~\pE^\SacerdosPrimus^\soloE e8 cis g
+    g4( fis8) fis4 r8
+    e'4.~ e8 cis g %95
+    fis4. d'
+    c! h
+    a4 r8 r4\fermata r8
+    R2.*3 %101
+    r4 r8 r r \mvTr d\fE^\tutti
+    h c d d c h
+    h4( d8) g4 h,8
+    c e d e e c %105
+    d4. d8 r r
+    e e16([ d)] c([ h)] a8. a16 a8
+    d d16([ c)] h([ a)] g8. g16 g8
+    c c16([ h)] a([ g)] fis8 g e'
+    d4. d8 r a %110
+    cis d e cis d e
+    e4( d8) a4 a8
+    cis d e cis d e
+    e4( d8) a4 r8
+    R2. %115
+    h8 h c d8. d16 a8
+    h h c d8. d16 a8
+    g4( h8) d4 d8
+    e8. e16 e8 e e c
+    h4.( fis) %120
+    g8 r r r4 r8
+    R2.
+    r4 r8 r r a\p
+    cis d e cis d e
+    e4( d8) a4 a8 %125
+    cis d e cis d e
+    e4( d8) a4 r8
+    R2.
+    h8\f h c! d8. d16 a8
+    h h c d8. d16 a8 %130
+    g4( h8) d4 d8
+    e8. e16 e8 e e c
+    h4.( fis)
+    g8 r r r r g
+    g4 h8 d4. %135
+    e~ e8 c e
+    d4.( c)
+    h8 r r r4 r8
+    r4 r8 fis([\p g)] a
+    \appoggiatura a g4 g8 r4 r8 %140
+    r4 r8 fis([ g)] a
+    \appoggiatura a g4 g8 r4 r8
+    r4 r8 fis([ g)] a
+    \appoggiatura a g4 g8 r4 g8\f
+    h c d d c h %145
+    h4( d8) d4 c8
+    h4.( fis)
+    g8 r r r r g
+    h c d d c h
+    h4( d8) d4 c8 %150
+    h4.( c)
+    h4 r8 r4 r8
+    R2.*3 %155
+    r4 r8 r4\fermata \bar "|." %156 finis
+  }
+}
+
+ODiesTenoreLyrics = \lyricmode {
+  O %16
+  di -- es a -- moe -- na be --
+  a -- ta et
+  di -- is et fi -- li -- is
+  gra -- ta! %20
+  cal -- cu -- lo can -- di -- do
+  cor -- dis in in -- ti -- mo,
+  in -- ti -- mo va -- se no --
+  ta -- ta. O
+  di -- es a -- moe -- na be -- %25
+  a -- ta et
+  di -- is et fi -- li -- is
+  gra -- ta
+
+  cal -- cu -- lo can -- di -- do %30
+  cor -- dis in in -- ti -- mo,
+  cor -- dis in
+  in -- ti -- mo va -- se no --
+  ta --
+  ta, in %35
+  in -- ti -- mo
+  cor -- dis no --
+  ta --
+  ta.
+
+  O! __ si hanc %42
+  sae -- pi -- us hanc
+  di -- em vi --
+  de -- bi -- mus %45
+  sub Be -- da
+  Prae -- su -- le
+  gau -- di -- a
+  quan -- ta,
+  o! %50
+  o!
+  o! __ si hanc
+  sae -- pi -- us hanc
+  di -- em vi --
+  de -- bi -- mus %55
+  sub Be -- da
+  Prae -- su -- le
+  gau -- di -- a quan --
+  ta.
+  O, %60
+  o!
+
+  O, %89
+  o! %90
+
+  gau -- di -- a %93
+  quan -- ta,
+  gau -- di -- a %95
+  quan -- _
+  _ _
+  ta.
+
+  O %102
+  di -- es a -- moe -- na be --
+  a -- ta et
+  di -- is et fi -- li -- is %105
+  gra -- ta,
+  cal -- cu -- lo can -- di -- do
+  cor -- dis in in -- ti -- mo,
+  in -- ti -- mo va -- se no --
+  ta -- ta. O %110
+  di -- es a -- moe -- na be --
+  a -- ta et
+  di -- is et fi -- li -- is
+  gra -- ta,
+  %115
+  cal -- cu -- lo can -- di -- do
+  cor -- dis in in -- ti -- mo,
+  cor -- dis in
+  in -- ti -- mo va -- se no --
+  ta -- %120
+  ta.
+
+  O
+  di -- es a -- moe -- na be --
+  a -- ta et %125
+  di -- is et fi -- li -- is
+  gra -- ta,
+
+  cal -- cu -- lo can -- di -- do
+  cor -- dis in in -- ti -- mo, %130
+  cor -- dis in
+  in -- ti -- mo va -- se no --
+  ta --
+  ta, in
+  in -- ti -- mo %135
+  cor -- dis no --
+  ta --
+  ta.
+  O, __ o
+  di -- es, %140
+  o __ a --
+  moe -- na,
+  o __ be --
+  a -- ta, o
+  di -- es a -- moe -- na be -- %145
+  a -- ta, be --
+  a --
+  ta, o
+  di -- es a -- moe -- na be --
+  a -- ta, be -- %150
+  a --
+  ta! %152 finis
+}

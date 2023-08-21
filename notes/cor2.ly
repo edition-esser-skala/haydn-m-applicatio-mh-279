@@ -274,3 +274,117 @@ TeLaudamusCornoII = {
     c4 c, c r\fermata \bar "|." %144 finis
   }
 }
+
+ODiesCornoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 6/8 \tempoODies
+    \partial 8 r8 c\fE r r c r r
+    c2.
+    R
+    g'4. c8 g e
+    c c g' c,[ r g'] %5
+    c c g c,[ r g']
+    c r r c, c c
+    c4 r8 c' c c\p
+    c4. g
+    e8 r r r r c\f %10
+    c c c c c c
+    c c' c c c c
+    c r r g r r
+    e r r r4 r8
+    R2. %15
+    r4 r8 r r c\fE
+    c r r c r r
+    c2.
+    R
+    g'4. c8 c, c %20
+    c r r r4 r8
+    R2.
+    r4 r8 r r c
+    c'4.( g8) r r
+    d' r r d r r %25
+    r g, g g4 r8
+    d' r r d r r
+    r g, g g4 r8
+    r4 r8 c e d
+    c[ r g] c e d %30
+    c[ r g] c e d
+    c r r c, c c
+    c4 r8 c' c c
+    c4. g
+    e8 r r r4 r8 %35
+    c r r c' r r
+    c r r c r r
+    c c c g g g
+    e r r r4 r8
+    R2.*11 %50
+    r8 e\fE e e4 r8
+    R2.*7 %58
+    e4\fE r8 r4 r8
+    e4 r8 r4 r8 %60
+    e2.\pE
+    e
+    c
+    c8 r r r4 r8
+    R2.*23 %87
+    g'4.~\p g\f
+    g2.
+    g4. r4 r8 %90
+    R2.*7 %97
+    R2.\fermata
+    c,2.\fE
+    c4. r4 r8 %100
+    R2.
+    r4 r8 c'\fE g e
+    c r r c r r
+    c2.
+    R %105
+    g'4. c8 c, c
+    c r r r4 r8
+    R2.
+    r4 r8 r r c'
+    c4. g8 r r %110
+    d' r r d r r
+    r g, g g4 r8
+    d' r r d r r
+    r g, g g4 r8
+    r4 r8 c e d %115
+    c[ r g] c e d
+    c[ r g] c e d
+    c r r c, c c
+    c4 r8 c' c c
+    c4. g %120
+    c8 e, g c,4 r8
+    R2.*2
+    d'8\p r r d r r
+    r g, g g4 r8 %125
+    d' r r d r r
+    r g, g g4 r8
+    r4 r8 c\f e d
+    c[ r g] c e d
+    c[ r g] c e d %130
+    c r r c, c c
+    c4 r8 c' c c
+    c4. g
+    e8 r r r4 r8
+    c r r c' r r %135
+    c r r c r r
+    c c c g g g
+    e r r r4 r8
+    R2.*5 %143
+    r4 r8 r r c\fE
+    c r r c r r %145
+    c2.
+    g'
+    c,8 r r r r c
+    c r r c r r
+    c c c c c c %150
+    g' g g g g g
+    c, r r g' r r
+    c, r r g' r r
+    c,2.
+    c8 e' g c, e, g %155
+    c,4 r8 r4\fermata \bar "|." %156 finis
+  }
+}

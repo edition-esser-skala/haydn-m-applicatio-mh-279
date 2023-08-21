@@ -274,3 +274,117 @@ TeLaudamusCornoI = {
     c4 c, c \pd r\fermata \bar "|." %144 finis
   }
 }
+
+ODiesCornoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 6/8 \tempoODies
+    \partial 8 r8 c'\fE r r c r r
+    c2.
+    R
+    d4. \pa c8 g e \pd
+    c' e d c[ r d] %5
+    e e d c[ r d]
+    e r r c c c
+    c4 r8 d d d\p
+    e4. d
+    c8 r r r r c\f %10
+    c c c c c c
+    c d d d d d
+    e r r d r r
+    c r r r4 r8
+    R2. %15
+    r4 r8 r r c\fE
+    c r r c r r
+    c2.
+    R
+    d4. e8 c c %20
+    c r r r4 r8
+    R2.
+    r4 r8 r r c
+    e4.( d8) r r
+    \pao d r r \pao d r r %25
+    r d d d4 r8
+    \pao d r r \pao d r r
+    r d d d4 r8
+    r4 r8 \pa c g' f \pd
+    e[ r d] \pa c g' f \pd %30
+    e[ r d] \pa c g' f \pd
+    e r r c c c
+    c4 r8 d d d
+    e4. d
+    c8 r r r4 r8 %35
+    c r r e r r
+    d r r d r r
+    e e e d d d
+    c r r r4 r8
+    R2.*11 %50
+    r8 \pa e,\fE e e4 \pd r8
+    R2.*7 %58
+    \pao e4\fE r8 r4 r8
+    \pao e4 r8 r4 r8 %60
+    \pa e2.\pE
+    e
+    c
+    c8 \pd r r r4 r8
+    R2.*23 %87
+    \pa g'4.~\p g\f \pd
+    d'2.
+    d4. r4 r8 %90
+    R2.*7 %97
+    R2.\fermata
+    c2.\fE
+    c4. r4 r8 %100
+    R2.
+    r4 r8 \pa c\fE g e
+    c \pd r r c' r r
+    c2.
+    R %105
+    d4. e8 c c
+    c r r r4 r8
+    R2.
+    r4 r8 r r e
+    e4. d8 r r %110
+    \pao d r r \pao d r r
+    r d d d4 r8
+    \pao d r r \pao d r r
+    r d d d4 r8
+    r4 r8 \pa c g' f \pd %115
+    e[ r d] \pa c g' f \pd
+    e[ r d] \pa c g' f \pd
+    e r r c c c
+    c4 r8 d d d
+    e4. d %120
+    \pa c8 e, g c,4 \pd r8
+    R2.*2
+    \pao d'8\p r r \pao d r r
+    r d d d4 r8 %125
+    \pao d r r \pao d r r
+    r d d d4 r8
+    r4 r8 \pa c\f g' f \pd
+    e[ r d] \pa c g' f \pd
+    e[ r d] \pa c g' f \pd %130
+    e r r c c c
+    c4 r8 d d d
+    e4. d
+    c8 r r r4 r8
+    c r r e r r %135
+    d r r d r r
+    e e e d d d
+    c r r r4 r8
+    R2.*5 %143
+    r4 r8 r r c\fE
+    c r r c r r %145
+    c2.
+    \pa g
+    c,8 \pd r r r r c'
+    c r r c r r
+    c c c c c c %150
+    \pa g g g g g g \pd
+    g r r \pao g r r
+    g r r \pao g r r
+    g2.
+    \pa g8 e' g c, e, g \pd %155
+    c4 r8 r4\fermata \bar "|." %156 finis
+  }
+}

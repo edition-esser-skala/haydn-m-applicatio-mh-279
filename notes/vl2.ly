@@ -680,3 +680,41 @@ ODiesViolinoII = {
     q4 r8 r4\fermata \bar "|." %156 finis
   }
 }
+
+MarciaViolinoII = {
+  \relative c' {
+    \clef treble
+    \key a \major \time 4/4 \tempoMarcia
+    \partial 8 e8\fE a r gis r a-! h-! r h
+    a4-\tenuto a <h, d>8 cis r4
+    cis16\p cis cis cis cis cis cis cis d d d d d d d d
+    cis cis cis cis cis cis cis cis d d d d d d d(\f h')
+    a8 a4 a8 a4( gis8) r %5
+    h4 cis h r8 h
+    a gis fis e dis4 r8 dis
+    e16 e gis( e) cis'[ dis32 cis] \appoggiatura dis32 cis16 h32 a gis16 gis gis( e) cis'[ dis32 cis] \appoggiatura dis cis16 h32 a
+    gis16[ a32 gis] \appoggiatura h a16 gis32 fis e16 e( fis dis) e8 r r h'-!\p
+    h-! h,-! cis-! dis-! e-! e32 dis e dis e8-! e32 dis e dis %10
+    e8-! h-! cis-! dis-! e <gis h>4\f q8~ \noBreak
+    q q4 q8 q4 r8 \bar ":|.|:" h-! \noBreak
+    a-! a-! a-! fis-! fis-! d'!-! r h\p \noBreak
+    a a4 a8 gis8. e32 fis gis8-\parenthesize-! h
+    a a4 a8 gis8.( d'16) cis( h) a( gis) %15
+    a8\f r gis r a-! h-! r h-!
+    a-! e'-! d-! d,-! cis r r e
+    fis16 fis fis fis fis fis fis fis e e e e a a a a
+    fis fis fis fis fis fis fis fis e e e e e e e e
+    dis(\p fis) fis fis fis fis( gis a) a4( gis8) r %20
+    e4\fE fis e r8 e'
+    d cis h a gis4 r8 gis
+    a16 a cis( a) fis'[ gis32 fis] \appoggiatura gis fis16 e32 d cis16 cis cis( a) fis'[ gis32 fis] \appoggiatura gis fis16 e32 d
+    cis16[ d32 cis] \appoggiatura e d16 cis32 h a16 a( h gis) a8 e16. cis32 a8 r
+    cis16\p cis cis cis cis cis cis cis d d\fz d d d d d d %25
+    cis\p cis cis cis cis cis cis cis d d\fz d d d d e\p e
+    e8 e fis gis, a-! a32 gis a gis a8-! a32 gis a gis
+    a8-! e' fis gis, a a'16(\f e) cis' cis cis( e,)
+    a8 a16( e) cis' cis cis( e,) a8 a, r e''\p
+    d-! d-! r d, cis cis4\f cis8~ %30
+    cis cis'4 cis8 cis4 r8\fermata \bar ":|." %31 finis
+  }
+}

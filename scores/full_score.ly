@@ -329,85 +329,157 @@
   %     \midi { \tempo 4 = 50 } %100
   %   }
   % }
+  % \bookpart {
+  %   \section "6" "Chorus" "O dies amoena beata"
+  %   \addTocLabel "odies"
+  %   \paper { indent = 2.5\cm }
+  %   \score { %\articulate
+  %     <<
+  %       \new StaffGroup <<
+  %         \new GrandStaff <<
+  %           \set GrandStaff.instrumentName = "ob"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \ODiesOboeI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \ODiesOboeII
+  %           }
+  %         >>
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff <<
+  %           \set Staff.instrumentName = \markup \center-column { \transposedNameShort "cor" "G" "" "1, 2" }
+  %           % \transpose c g,
+  %           \partCombine #'(0 . 10) \ODiesCornoI \ODiesCornoII
+  %         >>
+  %       >>
+  %       \new StaffGroup <<
+  %         \new GrandStaff \with { \smallGroupDistance } <<
+  %           \set GrandStaff.instrumentName = "vl"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \ODiesViolinoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \ODiesViolinoII
+  %           }
+  %         >>
+  %         \new Staff {
+  %           \set Staff.instrumentName = "vla"
+  %           \ODiesViola
+  %         }
+  %       >>
+  %       \new ChoirStaff <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "S"
+  %           \new Voice = "Soprano" { \dynamicUp \ODiesSoprano }
+  %         }
+  %         \new Lyrics \lyricsto Soprano \ODiesSopranoLyrics
+
+  %         \new Staff {
+  %           \set Staff.instrumentName = \markup \center-column { "A" "Filia Petri" }
+  %           \new Voice = "Alto" { \dynamicUp \ODiesAlto }
+  %         }
+  %         \new Lyrics \lyricsto Alto \ODiesAltoLyrics
+
+  %         \new Staff {
+  %           \set Staff.instrumentName = \markup \center-column { "T" "Sacerdos 1:mus" }
+  %           \new Voice = "Tenore" { \dynamicUp \ODiesTenore }
+  %         }
+  %         \new Lyrics \lyricsto Tenore \ODiesTenoreLyrics
+
+  %         \new Staff {
+  %           \set Staff.instrumentName = \markup \center-column { "B" "Sacerdos 2:dus" }
+  %           \new Voice = "Basso" { \dynamicUp \ODiesBasso }
+  %         }
+  %         \new Lyrics \lyricsto Basso \ODiesBassoLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = \markup \center-column { "org" "b" }
+  %           % \transpose c c,
+  %           \ODiesOrgano
+  %         }
+  %       >>
+  %       \new FiguredBass { \ODiesBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4. = 60 }
+  %   }
+  % }
   \bookpart {
-    \section "6" "Chorus" "O dies amoena beata"
-    \addTocLabel "odies"
-    \paper { indent = 2.5\cm }
+    \section "7" "" "Marcia"
+    \addTocLabel "marcia"
+    \paper {
+      top-system-spacing.basic-distance = #10
+      top-system-spacing.minimum-distance = #10
+      top-markup-spacing.basic-distance = #0
+      top-markup-spacing.minimum-distance = #0
+      markup-system-spacing.basic-distance = #10
+      markup-system-spacing.minimum-distance = #10
+      system-system-spacing.basic-distance = #17
+      system-system-spacing.minimum-distance = #17
+      systems-per-page = #2
+      indent = 2\cm
+    }
     \score { %\articulate
       <<
         \new StaffGroup <<
-          \new GrandStaff <<
-            \set GrandStaff.instrumentName = "ob"
+          \new GrandStaff \with { \setGroupDistance #11 #11 } <<
+            \set GrandStaff.instrumentName = "fl"
             \new Staff {
               \set Staff.instrumentName = "1"
-              \ODiesOboeI
+              \MarciaFlautoI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \ODiesOboeII
+              \MarciaFlautoII
             }
           >>
         >>
-        \new StaffGroup <<
+        \new StaffGroup \with { \setGroupDistance #11 #11 } <<
+          \new Staff {
+            \set Staff.instrumentName = \transposedNameShort "posthorn" "A" ""
+            % \transpose c a,
+            \MarciaPosthorn
+          }
           \new Staff <<
-            \set Staff.instrumentName = \markup \center-column { \transposedNameShort "cor" "G" "" "1, 2" }
-            % \transpose c g,
-            \partCombine #'(0 . 10) \ODiesCornoI \ODiesCornoII
+            \set Staff.instrumentName = \markup \center-column { \transposedNameShort "cor" "A" "" "1, 2" }
+            % \transpose c a,
+            \partCombine #'(0 . 10) \MarciaCornoI \MarciaCornoII
           >>
         >>
-        \new StaffGroup <<
-          \new GrandStaff \with { \smallGroupDistance } <<
+        \new StaffGroup \with { \setGroupDistance #11 #11 } <<
+          \new GrandStaff \with { \setGroupDistance #11 #11 } <<
             \set GrandStaff.instrumentName = "vl"
             \new Staff {
               \set Staff.instrumentName = "1"
-              \ODiesViolinoI
+              \MarciaViolinoI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \ODiesViolinoII
+              \MarciaViolinoII
             }
           >>
           \new Staff {
             \set Staff.instrumentName = "vla"
-            \ODiesViola
+            \MarciaViola
           }
-        >>
-        \new ChoirStaff <<
-          \new Staff {
-            \set Staff.instrumentName = "S"
-            \new Voice = "Soprano" { \dynamicUp \ODiesSoprano }
-          }
-          \new Lyrics \lyricsto Soprano \ODiesSopranoLyrics
-
-          \new Staff {
-            \set Staff.instrumentName = \markup \center-column { "A" "Filia Petri" }
-            \new Voice = "Alto" { \dynamicUp \ODiesAlto }
-          }
-          \new Lyrics \lyricsto Alto \ODiesAltoLyrics
-
-          \new Staff {
-            \set Staff.instrumentName = \markup \center-column { "T" "Sacerdos 1:mus" }
-            \new Voice = "Tenore" { \dynamicUp \ODiesTenore }
-          }
-          \new Lyrics \lyricsto Tenore \ODiesTenoreLyrics
-
-          \new Staff {
-            \set Staff.instrumentName = \markup \center-column { "B" "Sacerdos 2:dus" }
-            \new Voice = "Basso" { \dynamicUp \ODiesBasso }
-          }
-          \new Lyrics \lyricsto Basso \ODiesBassoLyrics
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = \markup \center-column { "org" "b" }
             % \transpose c c,
-            \ODiesOrgano
+            \MarciaOrgano
           }
         >>
-        \new FiguredBass { \ODiesBassFigures }
+        \new FiguredBass { \MarciaBassFigures }
       >>
-      \layout { }
-      \midi { \tempo 4. = 60 }
+      \layout { \override Score.SpacingSpanner.common-shortest-duration = #(ly:make-moment 1/16) }
+      \midi { \tempo 4 = 75 }
     }
   }
 }

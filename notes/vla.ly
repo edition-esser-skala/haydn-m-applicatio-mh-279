@@ -680,3 +680,41 @@ ODiesViola = {
     g,4 r8 r4\fermata \bar "|." %156 finis
   }
 }
+
+MarciaViola = {
+  \relative c' {
+    \clef alto
+    \key a \major \time 4/4 \tempoMarcia
+    \partial 8 r8 <cis e>\fE r e r e e r e
+    e4^\tenutoE d \parOn e8-\parenthesize-! \parOff e-\parenthesize-! r4
+    a,16\p a a a a a a a h h h h h h h h
+    a a a a a a a a h h h h h h e\f e
+    e8 e d fis e e, r h' %5
+    e e e e e8. fis32 dis e8-! e
+    a a a a a8. fis32 dis h8-! fis'
+    h, e r e e e, r e'
+    e a, h h e h gis r
+    r gis'-!\p a-! h-! cis-! h16-! a-! gis8-! h,16-! a-! %10
+    gis8-! gis'-! a-! h-! e, e,4\f e8~ \noBreak
+    e e4 e8 e4 r8 \bar ":|.|:" e'-! \noBreak
+    e-! a,-! r fis'-! fis-! e-! r4 \noBreak
+    r8 e\p d( fis) e4 r8 gis,
+    a e' d( fis) e4 r8 e %15
+    <cis e>\f r e r \parOn e-\parenthesize-! \parOff e-\parenthesize-! r e
+    e a, d h a e a r
+    a16 a a a a a a a a a a a e' e cis cis
+    a a a a a a a a a a a a a a a a
+    h(\p dis) dis dis dis dis( e fis) fis4( e8) r %20
+    a\fE a a a a8. h32 gis a8-! a
+    d d d d d8. h32 gis e8-! h'
+    e, a r a a a, r a'
+    a d, e e a e16. cis32 a8 r
+    a16\p a a a a a a a h h\fz h h h h h h %25
+    a\p a a a a a a a h h\fz h h h h h\p h
+    a8 cis-! d-! e-! fis-! e16-! d-! cis8-! e16-! d-!
+    cis8-! a-! d-! e-! a,4 r8 e'\f
+    cis4 r8 e cis4 r8 a'\p
+    a-! a-! r h, a e'4\f e8~ %30
+    e e4 e8 e4 r8\fermata \bar ":|." %31 finis
+  }
+}

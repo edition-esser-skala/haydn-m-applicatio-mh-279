@@ -129,3 +129,41 @@ QuaePlanctusFlautoII = {
     f r r\fermata \bar "|." %208 finis
   }
 }
+
+MarciaFlautoII = {
+  \relative c' {
+    \clef treble
+    \key a \major \time 4/4 \tempoMarcia
+    \partial 8 e'8\fE a r gis r a h r h
+    a4 d gis,8 a r4
+    a2\p h
+    a h4 r
+    r r8 a\f a4( gis8) r %5
+    R1
+    r2 r4 r8 fis
+    e16 e \once \slurDashed gis( e) cis'8. h32 a gis16 gis gis( e) cis'8. h32 a
+    gis16[ a32 gis] \appoggiatura h a16 gis32 fis e16 e( fis dis) e8 r r4
+    R1 %10
+    r2 r8 e'\fE h gis \noBreak
+    e e' h gis e4 r8 \bar ":|.|:" r \noBreak
+    r eis-! fis-! fis-! fis-! h-! r4 \noBreak
+    R1
+    r2 r4 r8 e,\fE %15
+    a r gis r a h r h
+    a cis h gis a r r4
+    a1~\trill
+    a\trill
+    r2 r4 r8 e\fE %20
+    a a a a a8. h32 gis a8-! a
+    d d d d d8. h32 gis e8-! h
+    a16 a cis( a) fis'[ gis32 fis] \appoggiatura gis fis16 e32 d cis16 cis cis( a) fis'[ gis32 fis] \appoggiatura gis fis16 e32 d
+    cis16[ d32 cis] \appoggiatura e d16 cis32 h a16 a'( h gis) a8 r r4
+    a2\p h %25
+    a h4 r
+    R1
+    r2 r8 a\fE e e'16 cis
+    a8 a e e'16 cis a4 r
+    r2 r8 a4\fE a8~ %30
+    a a4 a8 a4 r8 \bar ":|." %31 finis
+  }
+}

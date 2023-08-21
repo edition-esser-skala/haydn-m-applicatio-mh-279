@@ -136,3 +136,41 @@ QuaePlanctusFlautoI = {
     f r r\fermata \bar "|." %208 finis
   }
 }
+
+MarciaFlautoI = {
+  \relative c' {
+    \clef treble
+    \key a \major \time 4/4 \tempoMarcia
+    \partial 8 e'8\fE a r h r cis d r d
+    cis4 fis h,8\trill a r4
+    cis2\p d
+    cis d4 r
+    r r8 \appoggiatura e16 d8\f cis4( h8) r %5
+    R1
+    r2 r4 r8 a
+    gis16 gis h( gis) e'8. dis32 cis h16 h h( gis) e'8. dis32 cis
+    h16[ cis32 h] \appoggiatura dis cis16 h32 a gis16 gis( a fis) e8 r r4
+    R1 %10
+    r2 r8 e'\fE h gis \noBreak
+    e e' h gis e4 r8 \bar ":|.|:" r \noBreak
+    r a-! a-! cis-! d!-! d-! r4 \noBreak
+    R1
+    r2 r4 r8 e,\fE %15
+    a r h r cis d r d
+    cis e d h a r r4
+    a1~\trill
+    a\trill
+    r2 r4 r8 e\fE %20
+    a a a a a8. h32 gis a8-! a
+    d d d d d8. h32 gis e8-! d
+    cis16 cis e( cis) a'[ h32 a] \appoggiatura h a16 gis32 fis e16 e e( cis) a'[ h32 a] \appoggiatura h a16 gis32 fis
+    e16[ fis32 e] \appoggiatura gis fis16 e32 d cis16 cis'( d h) a8 r r4
+    cis2\p d %25
+    cis d4 r8 h\mf
+    cis e16. e32 h4\trill a8-! a32 gis a gis a8-! a32 gis a h
+    cis8-! e16. e32 h4\trill a8-! a\f e e'16 cis
+    a8 a e e'16 cis a4 r
+    r2 r8 a4\fE e'8 %30
+    cis a4 e'8 cis4 r8\fermata \bar ":|." %31 finis
+  }
+}

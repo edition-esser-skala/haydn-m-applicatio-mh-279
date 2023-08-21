@@ -388,3 +388,40 @@ ODiesCornoII = {
     c,4 r8 r4\fermata \bar "|." %156 finis
   }
 }
+
+MarciaCornoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoMarcia
+    \partial 8 r8 e\fE r g r c, g' r g
+    c,4 c g'8 c, r4
+    c2\p g
+    c g4. g'8\f
+    c,4 r8 c g' g, r4 %5
+    R1*2
+    g4 r g r
+    g'8 c d d g,4 r
+    R1 %10
+    r2 r4 r8 g16.\fE g32 \noBreak
+    g4 r8 g,16. g32 g4 r8 \bar ":|.|:" g' \noBreak
+    c, r r e' d g, r4 \noBreak
+    R1
+    r2 r4 r8 g\fE %15
+    e r g r c, g' r g
+    c r r g e16 c e g c,8 c
+    c4 r c r
+    c r c r
+    R1 %20
+    c8\fE r c r c4 r8 c
+    g' r g r g4 r8 g
+    c,4 r c r
+    c8 r r g' e g16. e32 c8 r
+    c2\p g %25
+    c g4 r
+    R1
+    r2 r4 r8 c16.\fE c32
+    c4 r8 c16. c32 c4 r
+    r2 r8 c'\fE g e %30
+    c c' g e c4 r8\fermata \bar ":|." %31 finis
+  }
+}

@@ -1343,3 +1343,75 @@ ODiesBassFigures = \figuremode {
   r8 <6>2 \once \bassFigureExtendersOn q8 %155
   r4 r8 r4 %156 finis
 }
+
+MarciaOrgano = {
+  \relative c {
+    \clef bass
+    \key a \major \time 4/4 \tempoMarcia
+    \partial 8 r8 a\fE r e' r a-! gis-! r gis
+    a4^\tenuto d, e8 a, r4
+    a8-!\p a-! a-! a-! gis gis gis gis
+    a a a a gis gis gis gis'\f
+    a cis, d fis e e, r4 %5
+    gis' a gis r8 gis
+    fis e dis cis h4 r8 h
+    e r e r e r e r
+    e a h h, e h e dis'-!\p
+    e-! gis,-! a-! h-! cis-! h16-! a-! gis8-! gis16-! fis-! %10
+    e8-! gis-! a-! h-! e,4 r \noBreak
+    e\f r e r8 \bar ":|.|:" e-! \noBreak
+    cis-! cis'-! d!-! ais-! h-! gis-! r gis\p \noBreak
+    a cis, d dis e4 r8 e
+    a cis, d dis e4 r8 e\f %15
+    a, r e' r a-! gis-! r gis
+    a cis, d e a e a, r
+    d d d d cis cis cis cis
+    d d d d cis cis cis cis
+    h4\p^\tenuto h e, r8 e'\f %20
+    cis4 d! cis r8 cis'
+    h a gis fis e4 r8 e
+    a r a r a r a r
+    a d, e e a e16. cis32 a8 r
+    a\p a a a gis gis\fz gis gis %25
+    a\p a a a gis gis\fz gis gis\p
+    a cis-! d-! e-! fis-! e16-! d-! cis8-! cis16-! h-!
+    a8-! cis-! d-! e-! a,4 r
+    a\f r a r8 cis\p
+    d d r e a, r a\f r %30
+    a r a r a4 r8\fermata \bar ":|." %31 finis
+  }
+}
+
+MarciaBassFigures = \figuremode {
+  r8 r2 r8 <6 5>4 <\t \t>8
+  r2 <7>
+  r2 <6 5>
+  r q
+  r8 <6>4 q8 <6 4>4 <5 3> %5
+  <6>2 q
+  <3>8 q q q <7 _+>4. <\t \t>8
+  <5 3>4 <6 4> <5 3> <6 4>
+  <5 3>8 <6> <6 4> <7 _+>4 <_+> <6>8
+  r <6> q <_+> <5>4 <6> %10
+  r8 q q <_+> r2
+  r1
+  <6 3>8 <\t _+>4 <6>8 <_!> <6 5>4 <\t \t>8
+  r <6>4 <6 5>8 <_+>4. <7 _+>8
+  r <6>4 <6 5>8 <_+>4. <6 4>16 <5 3> %15
+  r2 r8 <6 5>4 <\t \t>8
+  r <6>4 <7>8 r2
+  r <6>
+  r q
+  <9 _+>8 <8 \t> <5 _+> <6 4>16 <7 _+> <\t \t>4 <8> %20
+  <6>2 q
+  <3>8 q q q <7>2
+  <5 3>4 <6 4> <5 3> <6 4>
+  <5 3>8 <6> <6 4> <7 5> r2
+  r2 <6 5> %25
+  r q
+  r8 <6> q4 <5>4 <6>
+  r8 q q2.
+  r2.. <6>8
+  r4. <7>8 r2 %30
+  r2.. %31 finis
+}

@@ -40,7 +40,7 @@ TeLaudamusSoprano = {
     a4 a a2
     g4 r r2 %35
     R1*10 %45
-    \mvTr d'2~\pE^\solo^\Levita d8[ e] fis([ g)]
+    \mvTr d'2~\pE^\Levita d8[ e] fis([ g)]
     h,2~ h8[ c] d([ e)]
     a,4 h \appoggiatura d c2
     h4 r r2

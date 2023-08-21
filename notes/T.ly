@@ -40,7 +40,7 @@ TeLaudamusTenore = {
     e4 e d2
     h4 r r2 %35
     R1*13 %48
-    r2 r4 \mvTr d8\pE^\solo^\SacerdosPrimus d
+    r2 r4 \mvTr d8\pE^\SacerdosPrimus d
     d4 d f! h, %50
     c8([ h)] c4 b4. b8
     b4 g' e b
@@ -287,7 +287,7 @@ ODiesTenore = {
     d4.( c)
     h8 r r r4 r8
     R2.*2 %41
-    \mvTr h4.~\pE^\SacerdosPrimus^\soloE h8 e dis
+    \mvTr h4.~\pE^\SacerdosPrimus h8 e dis
     e4 h8 h r h
     h4.~ h8 e dis
     e4 h8 h r r %45
@@ -311,7 +311,7 @@ ODiesTenore = {
     \mvTr e'4\fE^\tutti r8 r4 r8
     fis4 r8 r4 r8 %90
     R2.*2
-    \mvTr e4.~\pE^\SacerdosPrimus^\soloE e8 cis g
+    \mvTr e4.~\pE^\SacerdosPrimus e8 cis g
     g4( fis8) fis4 r8
     e'4.~ e8 cis g %95
     fis4. d'

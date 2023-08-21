@@ -40,7 +40,7 @@ TeLaudamusAlto = {
     g4 g g( fis)
     g r r2 %35
     R1*6 %41
-    \clef "treble_8" \mvTr d2~\pE^\solo^\FiliaPetri d8[ e] fis([ g)]
+    \clef "treble_8" \mvTr d2~\pE^\FiliaPetri d8[ e] fis([ g)]
     h,2~ h8[ c] d([ e)]
     a,4 h \appoggiatura d c2
     h4 r r2 %45
@@ -277,7 +277,7 @@ ODiesAlto = {
     \mvTr dis4\fE^\tutti r8 r4 r8 %60
     dis4 r8 r4 r8
     R2.
-    \clef "treble_8" r4 r8 r r \mvTr g,\pE^\FiliaPetri^\soloE
+    \clef "treble_8" r4 r8 r r \mvTr g,\pE^\FiliaPetri
     c4. c4 c8
     c([ e g)] f([ d)] h %65
     c4. c
@@ -305,7 +305,7 @@ ODiesAlto = {
     d'4 d8 r4 r8
     \clef treble \mvTr g4\fE^\tutti r8 r4 r8
     a4 r8 r4 r8 %90
-    \clef "treble_8" \mvTr g4.~\pE^\FiliaPetri^\soloE g8 e cis
+    \clef "treble_8" \mvTr g4.~\pE^\FiliaPetri g8 e cis
     cis4( d8) d4 r8
     R2.*2
     g4.~ g8 e cis %95

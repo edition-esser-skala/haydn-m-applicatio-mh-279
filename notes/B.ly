@@ -39,7 +39,7 @@ TeLaudamusBasso = {
     c! c d2
     g,4 r r2 %45
     R1*13
-    r2 r4 \mvTr h'8\pE^\solo^\SacerdosSecundus h
+    r2 r4 \mvTr h'8\pE^\SacerdosSecundus h
     h4 h d g, %50
     e c g'4. g8
     g4 b b g
@@ -283,7 +283,7 @@ ODiesBasso = {
     d2.
     g,8 r r r4 r8
     R2.*2 %41
-    \mvTr g'4.\pE^\SacerdosSecundus^\soloE fis4 fis8
+    \mvTr g'4.\pE^\SacerdosSecundus fis4 fis8
     e([ g)] g g r g
     g4. fis4 fis8
     e([ g)] g g r r %45
@@ -307,7 +307,7 @@ ODiesBasso = {
     \mvTr a'4\fE^\tutti r8 r4 r8
     d,4 r8 r4 r8 %90
     R2.*2
-    \mvTr g4.~\pE^\SacerdosSecundus^\soloE g8 e e
+    \mvTr g4.~\pE^\SacerdosSecundus g8 e e
     e4( d8) d4 r8
     a'4.~ a8 g e %95
     d4. h'

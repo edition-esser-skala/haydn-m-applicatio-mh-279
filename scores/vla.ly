@@ -1,7 +1,7 @@
 \version "2.24.0"
 
 \include "../definitions.ly"
-#(define option-instrument-name "org")
+#(define option-instrument-name "vla")
 \include "score_settings/one-staff.ly"
 
 \book {
@@ -22,10 +22,9 @@
           \new Lyrics \lyricsto Soli \AnSomnioSoliLyrics
         >>
         \new Staff {
-          \set Staff.instrumentName = "Organo"
-          \AnSomnioOrgano
+          \set Staff.instrumentName = "Viola"
+          \AnSomnioViola
         }
-        \new FiguredBass { \AnSomnioBassFigures }
       >>
     }
   }
@@ -34,8 +33,7 @@
     \addTocLabel "quaeplanctus"
     \score {
       <<
-        \new Staff { \QuaePlanctusOrgano }
-        \new FiguredBass { \QuaePlanctusBassFigures }
+        \new Staff { \QuaePlanctusViola }
       >>
     }
   }
@@ -55,8 +53,7 @@
           }
           \new Lyrics \lyricsto Soli \GaudeSoliLyrics
         >>
-        \new Staff { \GaudeOrgano }
-        \new FiguredBass { \GaudeBassFigures }
+        \new Staff { \GaudeViola }
       >>
     }
   }
@@ -65,8 +62,7 @@
     \addTocLabel "telaudamus"
     \score {
       <<
-        \new Staff { \TeLaudamusOrgano }
-        \new FiguredBass { \TeLaudamusBassFigures }
+        \new Staff { \TeLaudamusViola }
       >>
     }
   }
@@ -75,6 +71,7 @@
     \addTocLabel "adeste"
     \paper {
       systems-per-page = #5
+      page-count = #1
       indent = 2\cm
     }
     \score {
@@ -86,8 +83,7 @@
           }
           \new Lyrics \lyricsto Soli \AdesteSoliLyrics
         >>
-        \new Staff { \AdesteOrgano }
-        \new FiguredBass { \AdesteBassFigures }
+        \new Staff { \AdesteViola }
       >>
     }
   }
@@ -96,18 +92,17 @@
     \addTocLabel "odies"
     \score {
       <<
-        \new Staff { \ODiesOrgano }
-        \new FiguredBass { \ODiesBassFigures }
+        \new Staff { \ODiesViola }
       >>
     }
   }
   \bookpart {
     \section "7" "" "Marcia"
     \addTocLabel "marcia"
+    \paper { page-count = #1 }
     \score {
       <<
-        \new Staff { \MarciaOrgano }
-        \new FiguredBass { \MarciaBassFigures }
+        \new Staff { \MarciaViola }
       >>
     }
   }

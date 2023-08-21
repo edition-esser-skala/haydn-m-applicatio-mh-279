@@ -5,41 +5,77 @@
 
 \book {
   \bookpart {
-    \section "1" "First"
-    \addTocEntry
-    \paper { indent = 2\cm }
+    \section "4" "Chorus" "Te laudamus o Supremum"
+    \addTocLabel "telaudamus"
+    \paper { indent = 2.5\cm }
     \score {
       <<
         \new ChoirStaff <<
           \new Staff {
-            \set Staff.instrumentName = "Soprano"
-            \new Voice = "Soprano" { \dynamicUp \xxxSoprano }
+            \set Staff.instrumentName = \markup \center-column { "Soprano" "Levita" }
+            \new Voice = "Soprano" { \dynamicUp \TeLaudamusSoprano }
           }
-          \new Lyrics \lyricsto Soprano \xxxSopranoLyrics
+          \new Lyrics \lyricsto Soprano \TeLaudamusSopranoLyrics
 
           \new Staff {
-            \set Staff.instrumentName = "Alto"
-            \new Voice = "Alto" { \dynamicUp \xxxAlto }
+            \set Staff.instrumentName = \markup \center-column { "Alto" "Filia Petri" }
+            \new Voice = "Alto" { \dynamicUp \TeLaudamusAlto }
           }
-          \new Lyrics \lyricsto Alto \xxxAltoLyrics
+          \new Lyrics \lyricsto Alto \TeLaudamusAltoLyrics
 
           \new Staff {
-            \set Staff.instrumentName = "Tenore"
-            \new Voice = "Tenore" { \dynamicUp \xxxTenore }
+            \set Staff.instrumentName = \markup \center-column { "Tenore" "Sacerdos 1:mus" }
+            \new Voice = "Tenore" { \dynamicUp \TeLaudamusTenore }
           }
-          \new Lyrics \lyricsto Tenore \xxxTenoreLyrics
+          \new Lyrics \lyricsto Tenore \TeLaudamusTenoreLyrics
 
           \new Staff {
-            \set Staff.instrumentName = "Basso"
-            \new Voice = "Basso" { \dynamicUp \xxxBasso }
+            \set Staff.instrumentName = \markup \center-column { "Basso" "Sacerdos 2:dus" }
+            \new Voice = "Basso" { \dynamicUp \TeLaudamusBasso }
           }
-          \new Lyrics \lyricsto Basso \xxxBassoLyrics
+          \new Lyrics \lyricsto Basso \TeLaudamusBassoLyrics
         >>
         \new Staff {
           \set Staff.instrumentName = "Organo"
-          \xxxOrgano
+          \TeLaudamusOrgano
         }
-        \new FiguredBass { \xxxBassFigures }
+        \new FiguredBass { \TeLaudamusBassFigures }
+      >>
+    }
+  }
+  \bookpart {
+    \section "6" "Chorus" "O dies amoena beata"
+    \addTocLabel "odies"
+    \paper { indent = 2.5\cm }
+    \score {
+      <<
+        \new ChoirStaff <<
+          \new Staff {
+            \set Staff.instrumentName = "S"
+            \new Voice = "Soprano" { \dynamicUp \ODiesSoprano }
+          }
+          \new Lyrics \lyricsto Soprano \ODiesSopranoLyrics
+
+          \new Staff {
+            \set Staff.instrumentName = \markup \center-column { "A" "Filia Petri" }
+            \new Voice = "Alto" { \dynamicUp \ODiesAlto }
+          }
+          \new Lyrics \lyricsto Alto \ODiesAltoLyrics
+
+          \new Staff {
+            \set Staff.instrumentName = \markup \center-column { "T" "Sacerdos 1:mus" }
+            \new Voice = "Tenore" { \dynamicUp \ODiesTenore }
+          }
+          \new Lyrics \lyricsto Tenore \ODiesTenoreLyrics
+
+          \new Staff {
+            \set Staff.instrumentName = \markup \center-column { "B" "Sacerdos 2:dus" }
+            \new Voice = "Basso" { \dynamicUp \ODiesBasso }
+          }
+          \new Lyrics \lyricsto Basso \ODiesBassoLyrics
+        >>
+        \new Staff { \ODiesOrgano }
+        \new FiguredBass { \ODiesBassFigures }
       >>
     }
   }

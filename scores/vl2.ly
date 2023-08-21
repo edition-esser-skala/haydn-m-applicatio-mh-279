@@ -1,7 +1,7 @@
 \version "2.24.0"
 
 \include "../definitions.ly"
-#(define option-instrument-name "org")
+#(define option-instrument-name "vl 2")
 \include "score_settings/one-staff.ly"
 
 \book {
@@ -22,20 +22,19 @@
           \new Lyrics \lyricsto Soli \AnSomnioSoliLyrics
         >>
         \new Staff {
-          \set Staff.instrumentName = "Organo"
-          \AnSomnioOrgano
+          \set Staff.instrumentName = "Violino II"
+          \AnSomnioViolinoII
         }
-        \new FiguredBass { \AnSomnioBassFigures }
       >>
     }
   }
   \bookpart {
     \section "2" "Aria" "Quae planctus in ruinis"
     \addTocLabel "quaeplanctus"
+    \paper { page-count = #3 }
     \score {
       <<
-        \new Staff { \QuaePlanctusOrgano }
-        \new FiguredBass { \QuaePlanctusBassFigures }
+        \new Staff { \QuaePlanctusViolinoII }
       >>
     }
   }
@@ -55,8 +54,7 @@
           }
           \new Lyrics \lyricsto Soli \GaudeSoliLyrics
         >>
-        \new Staff { \GaudeOrgano }
-        \new FiguredBass { \GaudeBassFigures }
+        \new Staff { \GaudeViolinoII }
       >>
     }
   }
@@ -65,8 +63,7 @@
     \addTocLabel "telaudamus"
     \score {
       <<
-        \new Staff { \TeLaudamusOrgano }
-        \new FiguredBass { \TeLaudamusBassFigures }
+        \new Staff { \TeLaudamusViolinoII }
       >>
     }
   }
@@ -75,6 +72,7 @@
     \addTocLabel "adeste"
     \paper {
       systems-per-page = #5
+      page-count = #1
       indent = 2\cm
     }
     \score {
@@ -86,8 +84,7 @@
           }
           \new Lyrics \lyricsto Soli \AdesteSoliLyrics
         >>
-        \new Staff { \AdesteOrgano }
-        \new FiguredBass { \AdesteBassFigures }
+        \new Staff { \AdesteViolinoII }
       >>
     }
   }
@@ -96,18 +93,17 @@
     \addTocLabel "odies"
     \score {
       <<
-        \new Staff { \ODiesOrgano }
-        \new FiguredBass { \ODiesBassFigures }
+        \new Staff { \ODiesViolinoII }
       >>
     }
   }
   \bookpart {
     \section "7" "" "Marcia"
     \addTocLabel "marcia"
+    \paper { page-count = #1 }
     \score {
       <<
-        \new Staff { \MarciaOrgano }
-        \new FiguredBass { \MarciaBassFigures }
+        \new Staff { \MarciaViolinoII }
       >>
     }
   }

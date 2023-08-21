@@ -4,7 +4,7 @@ composer:
 title: Applicatio
 id: MH 279
 genre: cantata
-scoring: S, 2 T, B (solo), S, A, T, B (coro), 2 fl, 2 ob, 2 cor (C/F/G/A), [2 clno (C)], posthorn (A), 2 vl, vla, b, org
+scoring: S, 2 T, B (solo), S, A, T, B (coro), 2 fl, 2 ob,\\posthorn (A), 2 cor (C/F/G/A), [2 clno (C)], 2 vl, vla, b, org
 license: cc-by-sa-4.0
 sources:
   A1:
@@ -14,7 +14,7 @@ sources:
     url: https://www.bl.uk/manuscripts/FullDisplay.aspx?ref=Add_MS_32173
     license: public domain
     principal: true
-imslp:
+imslp: Applicatio_(Haydn,_Michael)
 parts:
   posthorn: Cornetto da Postiglione in A
   cor12: Corno I, II in C/F/G/A\\[Clarino I, II in C]
